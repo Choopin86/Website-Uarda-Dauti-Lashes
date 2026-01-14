@@ -1,0 +1,26 @@
+[
+  {
+    "id": "form1",
+    "submittedAt": "2025-12-03T12:00:00Z",
+    "status": "pending",
+    "hasConsentedToContact": true,
+    "fullName": {
+      "al": "Emri Mbiemri",
+      "en": "Full Name"
+    },
+    "email": "example@email.com",
+    "fullAddress": {
+      "al": "Adresa e plotë",
+      "en": "Full Address"
+    },
+    "telNumber": "+35512345678",
+    "message": {
+      "al": "Mesazhi i dërguar nga klienti.",
+      "en": "Message sent by the client."
+    },
+    "businessBrand": {
+      "al": "Emri i biznesit (opsionale)",
+      "en": "Business Name (optional)"
+    }
+  }
+]

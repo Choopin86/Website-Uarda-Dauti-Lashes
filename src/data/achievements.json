@@ -1,0 +1,29 @@
+[
+  {
+    "id": "achievement1",
+    "CompetitionName": {
+      "al": "Shembull Konkursi",
+      "en": "Example Competition"
+    },
+    "CompetitionCountry": {
+      "al": "Emri i Shtetit",
+      "en": "Country Name"
+    },
+    "Organizer": {
+      "al": "Emri i Organizatorit",
+      "en": "Organizer Name"
+    },
+    "date": "YYYY-MM-DD",
+    "PrizesWon": {
+      "al": ["Çmimi 1", "Çmimi 2"],
+      "en": ["Prize 1", "Prize 2"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  }
+]

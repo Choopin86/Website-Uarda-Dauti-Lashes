@@ -1,0 +1,32 @@
+[
+  {
+    "phone": "+35512345678",
+    "email": "info@uardadauti.com",
+    "address": {
+      "al": "Rruga e Sallonit, Tirana, Shqipëri",
+      "en": "Salon Street, Tirana, Albania"
+    },
+    "GPS": {
+      "lat": 41.3275,
+      "lng": 19.8189
+    },
+    "openingHours": {
+      "al": "H-P: 09:00 - 19:00, S: 09:00 - 14:00",
+      "en": "Mon-Fri: 09:00 - 19:00, Sat: 09:00 - 14:00"
+    },
+    "socialLinks": [
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com/uardadauti"
+      },
+      {
+        "platform": "whatsapp",
+        "url": "https://wa.me/35512345678"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://facebook.com/uardadauti"
+      }
+    ]
+  }
+]

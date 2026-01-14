@@ -1,0 +1,17 @@
+[
+  {
+    "brandName": {
+      "al": "Uarda Dauti Lashes",
+      "en": "Uarda Dauti Lashes"
+    },
+    "brandSlogan": {
+      "al": "Sallon profesional për qerpikë",
+      "en": "Professional beauty salon for eyelashes"
+    },
+    "heroText": {
+      "al": "Përshëndetje dhe mirëseardhje në sallonin tonë",
+      "en": "Welcome to our beauty salon"
+    },
+    "heroImage": "hero-image-id"
+  }
+]

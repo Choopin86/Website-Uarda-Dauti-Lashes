@@ -1,0 +1,290 @@
+[
+  {
+    "id": "service1",
+    "title": {
+      "al": "Qerpikë klasik",
+      "en": ""
+    },
+    "description": {
+      "al": "Për një pamje natyrale, elegante dhe të rafinuar. Në këtë teknikë vendoset një fije qerpiku artificial mbi një qerpik natyral (1:1), duke theksuar bukurinë e syve pa i bërë ata të duken të rënduar. Ideale për klientet që duan një efekt të butë, të përditshëm dhe natyral.",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "Qerpikë klasik për një pamje natyrale.",
+      "en": ""
+    },
+    "price": 25,
+    "mediaRefs": ["media1", "media2"],
+    "duration": "60 min",
+    "category": {
+      "al": "Klasik",
+      "en": "Classic"
+    },
+    "visibility": true,
+    "order": 1,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service2",
+    "title": {
+      "al": "Qerpikë Hibrid 2D (Efekti “Cat Eyes”)",
+      "en": ""
+    },
+    "description": {
+      "al": "Një kombinim perfekt mes klasikut dhe volumit. Në këtë teknikë, qerpikët klasikë vendosen përgjatë gjithë syrit, ndërsa në bishtin e syrit shtohet volum për të krijuar efektin e famshëm “cat eyes”. Jep një pamje më tërheqëse, misterioze dhe femërore — perfekte për ato që duan një prekje sensualiteti pa e tepruar.",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "Qerpikë Hibrid 2D për një pamje tërheqëse, misterioze dhe femërore",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 2,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service3",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 3,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service4",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 4,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service5",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 5,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service6",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 6,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service7",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 7,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  },
+  {
+    "id": "service8",
+    "title": {
+      "al": "",
+      "en": ""
+    },
+    "description": {
+      "al": "",
+      "en": ""
+    },
+    "shortDescription": {
+      "al": "",
+      "en": ""
+    },
+    "price": 35,
+    "mediaRefs": ["media3", "media4"],
+    "duration": "90 min",
+    "category": {
+      "al": "Volum",
+      "en": "Volume"
+    },
+    "visibility": true,
+    "order": 8,
+    "policies": {
+      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
+      "en": "Cancellation and lash care policies for lash extensions."
+    },
+    "videoDescription": {
+      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "en": "Video demonstrating the volume lash application procedure."
+    },
+    "imageDescription": {
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "en": "Image of the final result of volume lashes."
+    }
+  }
+]

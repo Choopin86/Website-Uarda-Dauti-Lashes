@@ -1,0 +1,30 @@
+[
+  {
+    "id": "media1",
+    "fileName": "classic-lash.jpg",
+    "fileFormat": "jpg",
+    "fileSize": 245000,
+    "url": "/assets/media/classic-lash.jpg",
+    "altText": {
+      "al": "Pamje e qerpikëve klasikë të vendosur",
+      "en": "Image of applied classic lash extensions"
+    },
+    "type": "image",
+    "belongsToServiceId": "service1",
+    "belongsToAchievementId": null
+  },
+  {
+    "id": "media2",
+    "fileName": "volume-lash.mp4",
+    "fileFormat": "mp4",
+    "fileSize": 1250000,
+    "url": "/assets/media/volume-lash.mp4",
+    "altText": {
+      "al": "Video e procedurës së qerpikëve me volum",
+      "en": "Video showing volume lash procedure"
+    },
+    "type": "video",
+    "belongsToServiceId": "service2",
+    "belongsToAchievementId": null
+  }
+]
