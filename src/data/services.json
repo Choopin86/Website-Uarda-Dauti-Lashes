@@ -46,7 +46,7 @@
       "en": ""
     },
     "shortDescription": {
-      "al": "Qerpikë Hibrid 2D për një pamje tërheqëse, misterioze dhe femërore",
+      "al": "Qerpikë Hibrid 2D për një pamje tërheqëse, misterioze dhe femërore. 'Cat Eyes'.",
       "en": ""
     },
     "price": 35,
@@ -74,19 +74,19 @@
   {
     "id": "service3",
     "title": {
-      "al": "",
+      "al": "Qerpikë Hibrid 4D (Raporti 1:1)",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Balanca e përsosur mes natyrales dhe volumit. Këtu përdoret një miksim 50% klasik + 50% volum, duke krijuar një pamje të plotë, por jo të rënduar. I përshtatshëm për vajzat që nuk duan pamjen shumë të butë si klasikët, por as shumë të dendur si volumi. Jep efekt elegant, të theksuar dhe shumë tërheqës.",
       "en": ""
     },
     "shortDescription": {
-      "al": "",
+      "al": "Qerpikë Hibrid për balancë të përsosur mes natyrales dhe volumit (Raporti 1:1)",
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media5", "media6"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -110,19 +110,19 @@
   {
     "id": "service4",
     "title": {
-      "al": "",
+      "al": "Qerpikë Volum",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Për një pamje të sofistikuar dhe tërheqëse, kjo teknikë sjell dendësi, thellësi dhe volum të përsosur. Fijet ultra të lehta krijojnë një efekt të butë “cloudy”, që i jep syve shkëlqim dhe formë pa i rënduar. Zgjedhja ideale për vajzat që duan një glamour të përditshëm pa kompromis në elegancë.",
       "en": ""
     },
     "shortDescription": {
-      "al": "",
+      "al": "Dendësi, thellësi dhe volum të përsosur për një pamje të sofistikuar dhe tërheqëse.",
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media7", "media8"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -146,19 +146,19 @@
   {
     "id": "service5",
     "title": {
-      "al": "",
+      "al": "Qerpikë MegaVolum",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Intensitet maksimal, efekt “wow”. Në këtë teknikë përdoren fije ultra të holla, të kombinuara në tufa shumë të dendura për një pamje dramatike dhe shumë të plotë. Ideal për klientet që duan efekt skenik, volum maksimal dhe një rezultat që nuk kalon pa u vënë re.",
       "en": ""
     },
     "shortDescription": {
-      "al": "",
+      "al": "Intensitet maksimal për një pamje dramatike dhe ekeft “wow”.",
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media9", "media10"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -182,11 +182,11 @@
   {
     "id": "service6",
     "title": {
-      "al": "",
+      "al": "Kthim i Qerpikut Natyral & Lyerje me Bojë",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Përforco bukurinë natyrale të qerpikëve të tu! Kjo trajtë përfshin kthimin e qerpikëve natyralë (lifting) për t’u dhënë formë dhe harkim, si dhe lyerjen me bojë për t’i bërë më të errët dhe të dukshëm. Perfekt për ata që duan një pamje të kujdesur pa pasur nevojë për rimel çdo ditë.",
       "en": ""
     },
     "shortDescription": {
@@ -194,7 +194,7 @@
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media11", "media12"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -218,11 +218,11 @@
   {
     "id": "service7",
     "title": {
-      "al": "",
+      "al": "Laminimi i vetullave",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Për vetulla të rregulluara, të plota dhe me formë perfekte. Laminimi I vetullave është procesi që drejton, forcon dhe stilon qimet e vetullave, duke i dhënë atyre një pamje më të dendur dhe të ngritur. Efekti zgjat disa javë dhe është ideal për të pasur vetulla “on fleek” çdo ditë pa përpjekje.",
       "en": ""
     },
     "shortDescription": {
@@ -230,7 +230,7 @@
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media13", "media14"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -254,11 +254,11 @@
   {
     "id": "service8",
     "title": {
-      "al": "",
+      "al": "Kurse Profesionale Qerpikësh",
       "en": ""
     },
     "description": {
-      "al": "",
+      "al": "Kursi im është krijuar për vajzat që duan të mësojnë teknikat më të kërkuara të aplikimit të qerpikëve, nga baza deri te niveli profesional. Gjatë trajnimit do të përfitoni njohuri teorike, ushtrime praktike dhe punë me modele reale, si dhe mbështetje pas përfundimit të kursit. Çdo studente punon me produkte profesionale “Rose Lashes AL” dhe certifikohet në fund të trajnimit. Ky kurs është hapi ideal për të ndërtuar karrierën tuaj në industrinë e bukurisë.",
       "en": ""
     },
     "shortDescription": {
@@ -266,7 +266,7 @@
       "en": ""
     },
     "price": 35,
-    "mediaRefs": ["media3", "media4"],
+    "mediaRefs": ["media15", "media16"],
     "duration": "90 min",
     "category": {
       "al": "Volum",
@@ -275,8 +275,8 @@
     "visibility": true,
     "order": 8,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Politikat e kursit.",
+      "en": "Course Policies."
     },
     "videoDescription": {
       "al": "Video që tregon procedurën e qerpikëve me volum.",
