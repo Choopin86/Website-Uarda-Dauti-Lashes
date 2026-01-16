@@ -1,17 +1,15 @@
-[
-  {
-    "brandName": {
-      "al": "Uarda Dauti Lashes",
-      "en": "Uarda Dauti Lashes"
-    },
-    "brandSlogan": {
-      "al": "Sallon profesional për qerpikë",
-      "en": "Professional beauty salon for eyelashes"
-    },
-    "heroText": {
-      "al": "Përshëndetje dhe mirëseardhje në sallonin tonë",
-      "en": "Welcome to our beauty salon"
-    },
-    "heroImage": "hero-image-id"
-  }
-]
+{
+  "brandName": {
+    "al": "Uarda Dauti Lashes",
+    "en": "Uarda Dauti Lashes"
+  },
+  "brandSlogan": {
+    "al": "Arti i qerpikëve perfektë",
+    "en": "The art of perfect lashes"
+  },
+  "heroText": {
+    "al": "Qerpikë të kuruar me precizion, elegancë dhe pasion profesional",
+    "en": "Lashes crafted with precision, elegance, and professional passion"
+  },
+  "heroImage": "hero-image-id"
+}

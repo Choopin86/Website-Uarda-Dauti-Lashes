@@ -1,32 +1,27 @@
-[
-  {
-    "phone": "+35512345678",
-    "email": "info@uardadauti.com",
-    "address": {
-      "al": "Rruga e Sallonit, Tirana, Shqipëri",
-      "en": "Salon Street, Tirana, Albania"
+{
+  "phone": "+355 69 394 8061",
+  "email": "info@uardadauti.com",
+  "address": {
+    "al": "Rruga Abdi Toptani, Torre Drin, kati 0",
+    "en": "Abdi Toptani Street, Torre Drin, ground floor"
+  },
+  "location": "https://maps.app.goo.gl/zK5uKnduDaECQs6f7",
+  "openingHours": {
+    "al": "E hënë - E premte: 09:00 - 17:00, E shtunë: 09:00 - 14:00",
+    "en": "Mon-Fri: 09:00 - 17:00, Sat: 09:00 - 14:00"
+  },
+  "socialLinks": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/uarda_dauti.lashes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
     },
-    "GPS": {
-      "lat": 41.3275,
-      "lng": 19.8189
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.link/2a3sr0"
     },
-    "openingHours": {
-      "al": "H-P: 09:00 - 19:00, S: 09:00 - 14:00",
-      "en": "Mon-Fri: 09:00 - 19:00, Sat: 09:00 - 14:00"
-    },
-    "socialLinks": [
-      {
-        "platform": "instagram",
-        "url": "https://instagram.com/uardadauti"
-      },
-      {
-        "platform": "whatsapp",
-        "url": "https://wa.me/35512345678"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://facebook.com/uardadauti"
-      }
-    ]
-  }
-]
+    {
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@uarda_dauti.lashes?is_from_webapp=1&sender_device=pc"
+    }
+  ]
+}
