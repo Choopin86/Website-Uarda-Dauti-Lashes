@@ -3,17 +3,17 @@
     "id": "service1",
     "title": {
       "al": "Qerpikë klasik",
-      "en": ""
+      "en": "Classic Lashes"
     },
     "description": {
       "al": "Për një pamje natyrale, elegante dhe të rafinuar. Në këtë teknikë vendoset një fije qerpiku artificial mbi një qerpik natyral (1:1), duke theksuar bukurinë e syve pa i bërë ata të duken të rënduar. Ideale për klientet që duan një efekt të butë, të përditshëm dhe natyral.",
-      "en": ""
+      "en": "For a natural, elegant, and refined look. With this technique, one artificial lash is applied to one natural lash (1:1), enhancing the beauty of the eyes without making them look heavy. Ideal for clients who want a soft, natural, everyday effect."
     },
     "shortDescription": {
-      "al": "Qerpikë klasik për një pamje natyrale.",
-      "en": ""
+      "al": "Teknikë 1:1 që thekson bukurinë natyrale të syve me një pamje të butë, elegante dhe të përditshme.",
+      "en": "1:1 technique that highlights the natural beauty of the eyes with a soft, elegant, and everyday look."
     },
-    "price": 25,
+    "price": "3.000 lekë / 35€",
     "mediaRefs": ["media1", "media2"],
     "duration": "60 min",
     "category": {
@@ -23,107 +23,107 @@
     "visibility": true,
     "order": 1,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e qerpikëve klasik.",
+      "en": "Video demonstrating the classic lash application procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve klasik.",
+      "en": "Image of the final result of classic lashes."
     }
   },
   {
     "id": "service2",
     "title": {
-      "al": "Qerpikë Hibrid 2D (Efekti “Cat Eyes”)",
-      "en": ""
+      "al": "Qerpikë Hibrid 2D (Efekti \"Cat Eyes\")",
+      "en": "Hybrid 2D Lashes (Cat Eyes Effect)"
     },
     "description": {
       "al": "Një kombinim perfekt mes klasikut dhe volumit. Në këtë teknikë, qerpikët klasikë vendosen përgjatë gjithë syrit, ndërsa në bishtin e syrit shtohet volum për të krijuar efektin e famshëm “cat eyes”. Jep një pamje më tërheqëse, misterioze dhe femërore — perfekte për ato që duan një prekje sensualiteti pa e tepruar.",
-      "en": ""
+      "en": "A perfect blend of classic and volume lashes. Classic lashes are applied across the entire eye, while added volume is placed at the outer corners to create the iconic “cat eye” effect. It gives a more attractive, mysterious, and feminine look—perfect for those who want a touch of sensuality without going overboard."
     },
     "shortDescription": {
-      "al": "Qerpikë Hibrid 2D për një pamje tërheqëse, misterioze dhe femërore. 'Cat Eyes'.",
-      "en": ""
+      "al": "Kombinim i klasikut me volum në bishtin e syrit për një efekt “cat eye” sensual dhe tërheqës.",
+      "en": "A combination of classic and volume at the outer corners for a sensual and attractive “cat eye” effect."
     },
-    "price": 35,
+    "price": "3.500 lekë / 40€",
     "mediaRefs": ["media3", "media4"],
-    "duration": "90 min",
+    "duration": "60 min",
     "category": {
-      "al": "Volum",
+      "al": "Hibrid",
       "en": "Volume"
     },
     "visibility": true,
     "order": 2,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e qerpikëve hibrid.",
+      "en": "Video demonstrating the hybrid lash application procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve hibrid.",
+      "en": "Image of the final result of hybrid lashes."
     }
   },
   {
     "id": "service3",
     "title": {
       "al": "Qerpikë Hibrid 4D (Raporti 1:1)",
-      "en": ""
+      "en": "Hybrid 4D Lashes (1:1 Ratio)"
     },
     "description": {
       "al": "Balanca e përsosur mes natyrales dhe volumit. Këtu përdoret një miksim 50% klasik + 50% volum, duke krijuar një pamje të plotë, por jo të rënduar. I përshtatshëm për vajzat që nuk duan pamjen shumë të butë si klasikët, por as shumë të dendur si volumi. Jep efekt elegant, të theksuar dhe shumë tërheqës.",
-      "en": ""
+      "en": "The perfect balance between natural and volume. This technique uses a 50% classic + 50% volume mix, creating a fuller look without feeling heavy. Ideal for girls who don’t want a look as soft as classic lashes, but not as dense as full volume either. It delivers an elegant, defined, and very attractive effect."
     },
     "shortDescription": {
-      "al": "Qerpikë Hibrid për balancë të përsosur mes natyrales dhe volumit (Raporti 1:1)",
-      "en": ""
+      "al": "Balancë perfekte mes natyrales dhe volumit për një pamje të plotë, elegante dhe të theksuar.",
+      "en": "The perfect balance between natural and volume for a full, elegant, and defined look."
     },
-    "price": 35,
+    "price": "4.000 lekë / 45€",
     "mediaRefs": ["media5", "media6"],
     "duration": "90 min",
     "category": {
-      "al": "Volum",
+      "al": "Hibrid",
       "en": "Volume"
     },
     "visibility": true,
     "order": 3,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e qerpikëve 4D.",
+      "en": "Video demonstrating the 4D hybrid lash application procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve 4D.",
+      "en": "Image of the final result of 4D hybrid lashes."
     }
   },
   {
     "id": "service4",
     "title": {
       "al": "Qerpikë Volum",
-      "en": ""
+      "en": "Volume Lashes"
     },
     "description": {
       "al": "Për një pamje të sofistikuar dhe tërheqëse, kjo teknikë sjell dendësi, thellësi dhe volum të përsosur. Fijet ultra të lehta krijojnë një efekt të butë “cloudy”, që i jep syve shkëlqim dhe formë pa i rënduar. Zgjedhja ideale për vajzat që duan një glamour të përditshëm pa kompromis në elegancë.",
-      "en": ""
+      "en": "For a sophisticated and captivating look, this technique delivers perfect density, depth, and volume. Ultra-light lashes create a soft, “cloudy” effect that enhances the eyes with brightness and shape without weighing them down. An ideal choice for girls who want everyday glamour without compromising on elegance."
     },
     "shortDescription": {
-      "al": "Dendësi, thellësi dhe volum të përsosur për një pamje të sofistikuar dhe tërheqëse.",
-      "en": ""
+      "al": "Qerpikë të dendur dhe të butë që krijojnë një look glam dhe të sofistikuar pa rënduar sytë.",
+      "en": "Dense yet soft lashes that create a glamorous and sophisticated look without weighing down the eyes."
     },
-    "price": 35,
+    "price": "5.000 lekë / 55€",
     "mediaRefs": ["media7", "media8"],
-    "duration": "90 min",
+    "duration": "60-120 min",
     "category": {
       "al": "Volum",
       "en": "Volume"
@@ -131,15 +131,15 @@
     "visibility": true,
     "order": 4,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "al": "Video që tregon procedurën e qerpikëve volum.",
       "en": "Video demonstrating the volume lash application procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve volum.",
       "en": "Image of the final result of volume lashes."
     }
   },
@@ -147,19 +147,19 @@
     "id": "service5",
     "title": {
       "al": "Qerpikë MegaVolum",
-      "en": ""
+      "en": "Mega Volume Lashes"
     },
     "description": {
       "al": "Intensitet maksimal, efekt “wow”. Në këtë teknikë përdoren fije ultra të holla, të kombinuara në tufa shumë të dendura për një pamje dramatike dhe shumë të plotë. Ideal për klientet që duan efekt skenik, volum maksimal dhe një rezultat që nuk kalon pa u vënë re.",
-      "en": ""
+      "en": "Maximum intensity, ultimate “wow” effect. This technique uses ultra-fine lashes combined into very dense fans to create a dramatic, ultra-full look. Ideal for clients who want a bold, stage-ready effect, maximum volume, and a result that definitely won’t go unnoticed."
     },
     "shortDescription": {
-      "al": "Intensitet maksimal për një pamje dramatike dhe ekeft “wow”.",
-      "en": ""
+      "al": "Volum maksimal dhe efekt dramatik për një pamje intensive dhe “wow”.",
+      "en": "Maximum volume and dramatic effect for an intense, “wow” look."
     },
-    "price": 35,
+    "price": "6.000 lekë / 65€",
     "mediaRefs": ["media9", "media10"],
-    "duration": "90 min",
+    "duration": "60-120 min",
     "category": {
       "al": "Volum",
       "en": "Volume"
@@ -167,15 +167,15 @@
     "visibility": true,
     "order": 5,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
+      "al": "Video që tregon procedurën e qerpikëve volum.",
       "en": "Video demonstrating the volume lash application procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve volum.",
       "en": "Image of the final result of volume lashes."
     }
   },
@@ -183,108 +183,252 @@
     "id": "service6",
     "title": {
       "al": "Kthim i Qerpikut Natyral & Lyerje me Bojë",
-      "en": ""
+      "en": "Natural Lash Lift & Tinting"
     },
     "description": {
       "al": "Përforco bukurinë natyrale të qerpikëve të tu! Kjo trajtë përfshin kthimin e qerpikëve natyralë (lifting) për t’u dhënë formë dhe harkim, si dhe lyerjen me bojë për t’i bërë më të errët dhe të dukshëm. Perfekt për ata që duan një pamje të kujdesur pa pasur nevojë për rimel çdo ditë.",
-      "en": ""
+      "en": "Enhance the natural beauty of your lashes! This treatment includes lifting the natural lashes to give them shape and curl, along with tinting to make them darker and more defined. Perfect for those who want a polished look without needing mascara every day."
     },
     "shortDescription": {
-      "al": "",
-      "en": ""
+      "al": "Lifting dhe bojë për qerpikë të harkuar, më të errët dhe natyralisht të bukur pa rimel.",
+      "en": "Lash lifting and tinting for curled, darker, and naturally beautiful lashes without mascara."
     },
-    "price": 35,
+    "price": "2.500 lekë / 30€",
     "mediaRefs": ["media11", "media12"],
-    "duration": "90 min",
+    "duration": "45 min",
     "category": {
-      "al": "Volum",
+      "al": "Natyral",
       "en": "Volume"
     },
     "visibility": true,
     "order": 6,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e qerpikëve lifting.",
+      "en": "Video demonstrating the lash lift and tint procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve lifting.",
+      "en": "Image of the final result of lifted and tinted lashes."
     }
   },
   {
     "id": "service7",
     "title": {
       "al": "Laminimi i vetullave",
-      "en": ""
+      "en": "Brow Lamination"
     },
     "description": {
       "al": "Për vetulla të rregulluara, të plota dhe me formë perfekte. Laminimi I vetullave është procesi që drejton, forcon dhe stilon qimet e vetullave, duke i dhënë atyre një pamje më të dendur dhe të ngritur. Efekti zgjat disa javë dhe është ideal për të pasur vetulla “on fleek” çdo ditë pa përpjekje.",
-      "en": ""
+      "en": "For well-groomed, fuller brows with a perfect shape. Brow lamination is a process that straightens, strengthens, and styles the brow hairs, giving them a denser, lifted look. The effect lasts for several weeks and is ideal for achieving “on-fleek” brows every day with minimal effort."
     },
     "shortDescription": {
-      "al": "",
-      "en": ""
+      "al": "Stilim profesional i vetullave për një pamje të plotë, të rregulluar dhe perfekte për javë të tëra.",
+      "en": "Professional brow styling for full, groomed, and perfect-looking brows that last for weeks."
     },
-    "price": 35,
+    "price": "2.500 lekë / 30€",
     "mediaRefs": ["media13", "media14"],
-    "duration": "90 min",
+    "duration": "50 min",
     "category": {
-      "al": "Volum",
+      "al": "Vetulla",
       "en": "Volume"
     },
     "visibility": true,
     "order": 7,
     "policies": {
-      "al": "Politikat e anulimit dhe mirëmbajtjes së qerpikëve extension.",
-      "en": "Cancellation and lash care policies for lash extensions."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e laminimit të vetullave.",
+      "en": "Video demonstrating the brow lamination procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të vetullave të laminuara.",
+      "en": "Image of the final result of laminated brows."
     }
   },
   {
     "id": "service8",
     "title": {
       "al": "Kurse Profesionale Qerpikësh",
-      "en": ""
+      "en": "Professional Lash Application Courses"
     },
     "description": {
       "al": "Kursi im është krijuar për vajzat që duan të mësojnë teknikat më të kërkuara të aplikimit të qerpikëve, nga baza deri te niveli profesional. Gjatë trajnimit do të përfitoni njohuri teorike, ushtrime praktike dhe punë me modele reale, si dhe mbështetje pas përfundimit të kursit. Çdo studente punon me produkte profesionale “Rose Lashes AL” dhe certifikohet në fund të trajnimit. Ky kurs është hapi ideal për të ndërtuar karrierën tuaj në industrinë e bukurisë.",
-      "en": ""
+      "en": "My course is designed for girls who want to learn the most in-demand lash application techniques, from beginner to professional level. During the training, you’ll gain theoretical knowledge, hands-on practice, and experience working with real models, along with post-course support. Each student works with professional “Rose Lashes AL” products and receives certification at the end of the training. This course is the perfect step to building your career in the beauty industry."
     },
     "shortDescription": {
-      "al": "",
-      "en": ""
+      "al": "Kurs profesional qerpikësh nga fillestar deri te niveli avancuar. Trajnim praktik me modele reale, produkte profesionale “Rose Lashes AL” dhe certifikim për të ndërtuar karrierën tuaj në bukuri.",
+      "en": "Professional lash course from beginner to advanced. Hands-on training with real models, professional “Rose Lashes AL” products, and certification to help you build your beauty career."
     },
-    "price": 35,
+    "price": "3.000 lekë / 35€",
     "mediaRefs": ["media15", "media16"],
     "duration": "90 min",
     "category": {
-      "al": "Volum",
+      "al": "Kurs",
       "en": "Volume"
     },
     "visibility": true,
     "order": 8,
     "policies": {
-      "al": "Politikat e kursit.",
-      "en": "Course Policies."
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
     },
     "videoDescription": {
-      "al": "Video që tregon procedurën e qerpikëve me volum.",
-      "en": "Video demonstrating the volume lash application procedure."
+      "al": "Video që tregon procedurën e kursit të qerpikëve.",
+      "en": "Video demonstrating the professional lash course procedure."
     },
     "imageDescription": {
-      "al": "Pamje e rezultatit përfundimtar të qerpikëve me volum.",
-      "en": "Image of the final result of volume lashes."
+      "al": "Pamje e rezultatit përfundimtar të qerpikëve pas kursit.",
+      "en": "Image of the final result of lashes after the course."
+    }
+  },
+  {
+    "id": "service9",
+    "title": {
+      "al": "Qerpikë Wispy / Kim K",
+      "en": "Wispy Lashes / Kim K"
+    },
+    "description": {
+      "al": "Një efekt elegant dhe modern që ngjan me look-un e lagur, por i punuar me kujdes duke miksuar gjatësi të ndryshme. Jep një pamje natyrale, të lehtë dhe shumë femërore, ideale për ato që duan qerpikë delikatë te kombinuar me dramatik.",
+      "en": "An elegant and modern effect that mimics a “wet-look” while carefully blending different lash lengths. It gives a natural, light, and very feminine appearance—perfect for those who want delicate lashes combined with a touch of drama."
+    },
+    "shortDescription": {
+      "al": "Qerpikë të lehtë me gjatësi të miksuara që krijojnë një pamje natyrale dhe elegante me efekt të butë wet look.",
+      "en": "Light lashes with mixed lengths that create a natural and elegant look with a soft wet look effect."
+    },
+    "price": "6.000 lekë / 65€",
+    "mediaRefs": [],
+    "duration": "120 min",
+    "category": {
+      "al": "Trendy",
+      "en": "Trendy"
+    },
+    "visibility": true,
+    "order": 9,
+    "policies": {
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
+    },
+    "videoDescription": {
+      "al": "",
+      "en": ""
+    },
+    "imageDescription": {
+      "al": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "service10",
+    "title": {
+      "al": "Qerpikë Wet Look",
+      "en": "Wet Look Lashes"
+    },
+    "description": {
+      "al": "Stil modern me tufa të mbyllura që krijojnë efekt të laguar dhe të rafinuar. Ideale për ditët e verës, plazh apo evente, pa u hapur dhe pa humbur formën.",
+      "en": "A modern style with tightly grouped lashes that create a wet, refined effect. Perfect for summer days, the beach, or events, staying intact without opening up or losing shape."
+    },
+    "shortDescription": {
+      "al": "Qerpikë me tufa të mbyllura dhe efekt të laguar, perfekt për një look modern dhe veror.",
+      "en": "Lashes with tightly grouped fans and a wet effect, perfect for a modern, summery look."
+    },
+    "price": "6.000 lekë / 65€",
+    "mediaRefs": [],
+    "duration": "120 min",
+    "category": {
+      "al": "Trendy",
+      "en": "Trendy"
+    },
+    "visibility": true,
+    "order": 10,
+    "policies": {
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
+    },
+    "videoDescription": {
+      "al": "",
+      "en": ""
+    },
+    "imageDescription": {
+      "al": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "service11",
+    "title": {
+      "al": "Efekti Penel",
+      "en": "Eyeliner Effect Lashes"
+    },
+    "description": {
+      "al": "Zgjedhja ideale për vajzat që e dashurojnë penelin e syve, por nuk kanë kohë ta aplikojnë çdo mëngjes. Me këtë efekt, qerpikët krijojnë automatikisht pamjen e penelit, duke theksuar syrin pa makeup shtesë.",
+      "en": "The perfect choice for girls who love the look of eyeliner but don’t have time to apply it every morning. With this effect, the lashes naturally create the appearance of eyeliner, enhancing the eyes without the need for extra makeup."
+    },
+    "shortDescription": {
+      "al": "Qerpikë që imitojnë penelin e syve, duke theksuar shikimin pa nevojë për makeup të përditshëm.",
+      "en": "Lashes that mimic eyeliner, enhancing the eyes without the need for daily makeup."
+    },
+    "price": "12.000 lekë / 125€",
+    "mediaRefs": [],
+    "duration": "3-4 orë",
+    "category": {
+      "al": "Trendy",
+      "en": "Trendy"
+    },
+    "visibility": true,
+    "order": 11,
+    "policies": {
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
+    },
+    "videoDescription": {
+      "al": "",
+      "en": ""
+    },
+    "imageDescription": {
+      "al": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "service12",
+    "title": {
+      "al": "Qerpikë M & L",
+      "en": "M & L Lashes"
+    },
+    "description": {
+      "al": "Forma perfekte për efektin lifting dhe “cat eye”. Kjo form i jep syrit efekt  lifting natyral, e zgjasin vizualisht dhe i bëjnë sytë të duken më të hapur dhe më tërheqës.",
+      "en": "The perfect shape for a lifting and “cat eye” effect. This style gives the eyes a natural lifted look, visually elongates them, and makes them appear more open and captivating."
+    },
+    "shortDescription": {
+      "al": "Qerpikë që japin efekt lifting dhe “cat eye”, duke i bërë sytë të duken më të hapur dhe më të ngritur.",
+      "en": "Lashes that provide a lifting and “cat eye” effect, making the eyes appear more open and lifted."
+    },
+    "price": "6.000 lekë / 65€",
+    "mediaRefs": [],
+    "duration": "60-120 min",
+    "category": {
+      "al": "Trendy",
+      "en": "Trendy"
+    },
+    "visibility": true,
+    "order": 12,
+    "policies": {
+      "al": "Heqja e qerpikëve të punuar nga salloni ynë kushton 500 lekë / 6€. Heqja e qerpikëve të punuar nga sallone të tjera kushton 1000 lekë / 15 euro",
+      "en": "Removing lashes done in our salon costs 500 lek / 6€. Removing lashes from other salons costs 1000 lek / 15€"
+    },
+    "videoDescription": {
+      "al": "",
+      "en": ""
+    },
+    "imageDescription": {
+      "al": "",
+      "en": ""
     }
   }
 ]
