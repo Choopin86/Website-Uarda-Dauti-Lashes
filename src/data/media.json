@@ -1,16 +1,16 @@
 [
   {
-    "id": "media1",
-    "fileName": "classic-lash.jpg",
-    "fileFormat": "jpg",
-    "fileSize": 245000,
-    "url": "/assets/media/classic-lash.jpg",
+    "id": "hero-image-id",
+    "fileName": "hero_image.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 7823145,
+    "url": "/media/pictures/hero_image.jpeg",
     "altText": {
-      "al": "Pamje e qerpikëve klasikë të vendosur",
-      "en": "Image of applied classic lash extensions"
+      "al": "Uarda Dauti - Artiste a qerpikëve ekstenshën",
+      "en": "Uarda Dauti - Lash Extension Artist"
     },
     "type": "image",
-    "belongsToServiceId": "service1",
+    "belongsToServiceId": null,
     "belongsToAchievementId": null
   },
   {
