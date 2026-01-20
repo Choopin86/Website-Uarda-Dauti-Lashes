@@ -17,7 +17,7 @@ export function renderHero(heroUI, container) {
 
   const image = document.createElement("img");
   image.src = heroUI.content.heroImage.url;
-  image.lat = heroUI.content.heroImage.alt;
+  image.alt = heroUI.content.heroImage.alt;
 
   //Assemble
   wrapper.append(title, slogan, text);
