@@ -7,7 +7,8 @@ export function transformHero(businessIdentity, media, language) {
   if (!heroImage) {
     throw new Error("Hero image not found in MediaModel");
   }
-  //Hero UI structure
+
+  //Build Hero UI structure
   return {
     type: "hero",
     content: {
