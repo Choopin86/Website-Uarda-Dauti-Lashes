@@ -1,7 +1,7 @@
 export function transformHero(businessIdentity, media, language) {
   //Resolve Hero Image from MedioModel
   const heroImage = media.find(
-    (item) => item.id === businessIdentity.heroImage
+    (item) => item.id === businessIdentity.heroImage,
   );
 
   if (!heroImage) {
