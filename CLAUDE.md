@@ -12,7 +12,7 @@ Multi-page marketing website for a lash salon (Uarda Dauti Lashes). Vanilla Java
 - `npm run build` — production build
 - `npm run preview` — serve the production build
 
-The home page is root `index.html`; the other pages (`about.html`, `contact.html`, `services.html`) live in `src/pages/`. All four are registered as build inputs in `vite.config.js` — add any new page there too.
+All four HTML entry points (`index.html`, `about.html`, `contact.html`, `services.html`) live at the project root and are registered as build inputs in `vite.config.js` — add any new page there too.
 
 ## Architecture
 
