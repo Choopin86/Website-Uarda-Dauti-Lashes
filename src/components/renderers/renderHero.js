@@ -20,10 +20,13 @@ export function renderHero(heroUI, container) {
 
   const portrait = document.createElement("div");
   portrait.className = "hero-portrait";
+  const frame = document.createElement("div");
+  frame.className = "hero-portrait-frame";
   const image = document.createElement("img");
   image.src = heroUI.content.heroImage.url;
   image.alt = heroUI.content.heroImage.alt;
-  portrait.appendChild(image);
+  frame.appendChild(image);
+  portrait.appendChild(frame);
 
   //Assemble
   wrapper.append(brand, slogan, text);

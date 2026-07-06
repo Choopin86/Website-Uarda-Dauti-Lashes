@@ -1,7 +1,7 @@
 /* Cream card floating on the charcoal band */
 .main-cta {
   background-color: var(--ink);
-  padding: 0 var(--space-4) var(--space-7);
+  padding: var(--space-7) var(--space-4);
 }
 
 .cta-content {

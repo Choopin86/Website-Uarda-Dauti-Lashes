@@ -15,8 +15,35 @@
     },
     "date": "2026-07-01",
     "PrizesWon": {
-      "al": ["Çmimi 1", "Çmimi 2"],
-      "en": ["Prize 1", "Prize 2"]
+      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
+      "en": ["1st Prize", "3 Best Work"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  },
+  {
+    "id": "achievement1",
+    "CompetitionName": {
+      "al": "Konkursi Kombëtarë. Kategoria: Klasik",
+      "en": "National Competition. Nomination: Classic"
+    },
+    "CompetitionCountry": {
+      "al": "Tiranë, Albania",
+      "en": "Tirana, Albania"
+    },
+    "Organizer": {
+      "al": "Filan Fistekja",
+      "en": "Filan Fistekja"
+    },
+    "date": "2025-07-01",
+    "PrizesWon": {
+      "al": ["Çmimi 1-rë", "Çmimi: Mbesa më e mirë"],
+      "en": ["1st Prize", "Best Niece Ever"]
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,

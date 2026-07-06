@@ -13,7 +13,7 @@ export function transformFooter(businessIdentity, contactInformation, language) 
         url: link.url,
         icon: link.icon,
       })),
-      copyright: `© ${new Date().getFullYear()} ${businessIdentity.brandName[language]}`,
+      copyright: "© 2026 MeLed-WebDev",
     },
   };
 }
