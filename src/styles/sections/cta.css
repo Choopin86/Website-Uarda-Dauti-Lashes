@@ -77,3 +77,11 @@ a.cta-item:hover {
     align-items: center;
   }
 }
+
+/* Services page: icon-only booking row (no card, no heading) */
+.booking-cta {
+  background-color: var(--ink);
+  padding: var(--space-6) var(--space-4);
+  display: flex;
+  justify-content: center;
+}

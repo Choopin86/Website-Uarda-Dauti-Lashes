@@ -1,0 +1,11 @@
+.services-list {
+  background-color: var(--cream);
+  color: var(--text-on-cream);
+  padding: var(--space-7) var(--space-4);
+  text-align: center;
+}
+
+.services-list .section-sub {
+  margin-left: auto;
+  margin-right: auto;
+}
