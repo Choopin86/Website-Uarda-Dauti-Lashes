@@ -16,7 +16,7 @@ All four HTML entry points (`index.html`, `about.html`, `contact.html`, `service
 
 ## Styling
 
-Plain CSS, no framework. `src/styles/global.css` is the design-token legend — all colors, fonts, spacing, and radii are `:root` custom properties there, plus the reset/base type and shared components (`.btn-pill`, `.section-eyebrow`, `.section-title`, `.section-sub`, `.flourish`). Each page section has its own file under `src/styles/sections/` that consumes only those tokens; everything is wired via `@import` in `src/styles/main.css`, which pages load with a `<link>` tag. Fonts: Cormorant Garamond (display serif) + Jost (body sans) via Google Fonts; icons via the Font Awesome CDN link.
+Plain CSS, no framework. `src/styles/global.css` is the design-token legend — all colors, fonts, spacing, and radii are `:root` custom properties there, plus the reset/base type and shared components (`.btn-pill`, `.section-eyebrow`, `.section-title`, `.section-sub`, `.flourish`). Each page section has its own file under `src/styles/sections/` that consumes only those tokens; everything is wired via `@import` in `src/styles/main.css`, which pages load with a `<link>` tag.
 
 ## Architecture
 
