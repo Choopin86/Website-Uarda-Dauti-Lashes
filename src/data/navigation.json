@@ -1,0 +1,42 @@
+[
+  {
+    "id": "nav-home",
+    "label": {
+      "al": "Kryefaqja",
+      "en": "Home"
+    },
+    "href": "/",
+    "order": 1,
+    "visibility": true
+  },
+  {
+    "id": "nav-services",
+    "label": {
+      "al": "Shërbimet",
+      "en": "Services"
+    },
+    "href": "/services.html",
+    "order": 2,
+    "visibility": true
+  },
+  {
+    "id": "nav-about",
+    "label": {
+      "al": "Rreth nesh",
+      "en": "About Us"
+    },
+    "href": "/about.html",
+    "order": 3,
+    "visibility": true
+  },
+  {
+    "id": "nav-contact",
+    "label": {
+      "al": "Kontakt",
+      "en": "Contact"
+    },
+    "href": "/contact.html",
+    "order": 4,
+    "visibility": true
+  }
+]

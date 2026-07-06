@@ -2,18 +2,18 @@
   {
     "id": "achievement1",
     "CompetitionName": {
-      "al": "Shembull Konkursi",
-      "en": "Example Competition"
+      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
+      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
     },
     "CompetitionCountry": {
-      "al": "Emri i Shtetit",
-      "en": "Country Name"
+      "al": "Romë, Itali",
+      "en": "Rome, Italy"
     },
     "Organizer": {
-      "al": "Emri i Organizatorit",
-      "en": "Organizer Name"
+      "al": "Filan Fistekja",
+      "en": "Filan Fistekja"
     },
-    "date": "YYYY-MM-DD",
+    "date": "2026-07-01",
     "PrizesWon": {
       "al": ["Çmimi 1", "Çmimi 2"],
       "en": ["Prize 1", "Prize 2"]
