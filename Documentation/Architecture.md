@@ -129,6 +129,7 @@ Purpose of this section: Section C exist to provide stability to the whole syste
 
 - phone
 - email
+- book-link
 - address
 - GPS
 - opening hours

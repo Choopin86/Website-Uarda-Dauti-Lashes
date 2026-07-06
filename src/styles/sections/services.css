@@ -79,6 +79,11 @@
   color: var(--accent-strong);
 }
 
+.service-book {
+  display: inline-block;
+  margin-top: var(--space-3);
+}
+
 .services-actions {
   display: flex;
   justify-content: center;

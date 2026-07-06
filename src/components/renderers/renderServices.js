@@ -46,9 +46,16 @@ export function renderServices(servicesUI, container) {
     price.className = "service-price";
     price.textContent = service.content.price;
 
+    const bookButton = document.createElement("a");
+    bookButton.className = "btn-pill btn-pill--solid service-book";
+    bookButton.href = service.content.bookLink;
+    bookButton.target = "_blank";
+    bookButton.rel = "noopener noreferrer";
+    bookButton.textContent = servicesUI.content.labels?.bookNow;
+
     const textWrapper = document.createElement("div");
     textWrapper.className = "service-text";
-    textWrapper.append(category, title, price);
+    textWrapper.append(category, title, price, bookButton);
     card.appendChild(textWrapper);
 
     wrapper.appendChild(card);

@@ -1,4 +1,10 @@
-export function transformServices(services, media, language, limit = null) {
+export function transformServices(
+  services,
+  media,
+  language,
+  limit = null,
+  bookLink = null,
+) {
   if (!Array.isArray(services)) {
     throw new Error("Services data must be an array");
   }
@@ -24,6 +30,7 @@ export function transformServices(services, media, language, limit = null) {
           duration: service.duration,
           category: service.category?.[language],
           policies: service.policies?.[language],
+          bookLink,
           media: resolvedMedia.map((m) => ({
             url: m.url,
             alt: m.altText?.[language],

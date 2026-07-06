@@ -62,6 +62,7 @@ export function initHome() {
     homeCopy.services,
     language,
     SERVICES_PREVIEW_LIMIT,
+    contactInformation,
   );
   const achievementsUI = transformAchievements(
     achievements,

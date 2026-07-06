@@ -31,6 +31,7 @@ export function initServices() {
     media,
     servicesCopy.list,
     language,
+    contactInformation,
   );
   const bookingCtaUI = transformBookingCTA(contactInformation);
   const footerUI = transformFooter(businessIdentity, contactInformation, language);

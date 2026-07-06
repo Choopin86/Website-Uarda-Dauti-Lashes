@@ -21,6 +21,10 @@
     "browseAll": {
       "al": "Shiko të gjitha shërbimet",
       "en": "Browse all services"
+    },
+    "bookNow": {
+      "al": "Rezervo tani",
+      "en": "Book now"
     }
   },
   "achievements": {

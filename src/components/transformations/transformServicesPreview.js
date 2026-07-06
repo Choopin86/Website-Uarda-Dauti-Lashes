@@ -6,6 +6,7 @@ export function transformServicesPreview(
   copy,
   language,
   limit,
+  contactInformation,
 ) {
   //Build Services Preview UI structure
   return {
@@ -17,7 +18,16 @@ export function transformServicesPreview(
         label: copy.browseAll?.[language],
         href: "/services.html",
       },
-      cards: transformServices(services, media, language, limit),
+      labels: {
+        bookNow: copy?.bookNow?.[language],
+      },
+      cards: transformServices(
+        services,
+        media,
+        language,
+        limit,
+        contactInformation?.["book-link"],
+      ),
     },
   };
 }

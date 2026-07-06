@@ -7,6 +7,10 @@
     "sub": {
       "al": "Zgjidhni shërbimin që ju përshtatet dhe shihni çdo detaj përpara se të rezervoni.",
       "en": "Choose the service that suits you and see every detail before you book."
+    },
+    "bookNow": {
+      "al": "Rezervo tani",
+      "en": "Book now"
     }
   },
   "detail": {

@@ -51,14 +51,23 @@ export function renderServicesList(servicesListUI, container, onSelectService) {
     meta.className = "service-price";
     meta.textContent = `${service.content.duration} · ${service.content.price}`;
 
+    const bookButton = document.createElement("a");
+    bookButton.className = "btn-pill btn-pill--solid service-book";
+    bookButton.href = service.content.bookLink;
+    bookButton.target = "_blank";
+    bookButton.rel = "noopener noreferrer";
+    bookButton.textContent = servicesListUI.content.labels?.bookNow;
+    bookButton.addEventListener("click", (event) => event.stopPropagation());
+
     const textWrapper = document.createElement("div");
     textWrapper.className = "service-text";
-    textWrapper.append(category, title, description, meta);
+    textWrapper.append(category, title, description, meta, bookButton);
     card.appendChild(textWrapper);
 
     const selectService = () => onSelectService(service.id);
     card.addEventListener("click", selectService);
     card.addEventListener("keydown", (event) => {
+      if (event.target !== card) return;
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
         selectService();
