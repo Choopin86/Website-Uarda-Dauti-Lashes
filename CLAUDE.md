@@ -14,6 +14,10 @@ Multi-page marketing website for a lash salon (Uarda Dauti Lashes). Vanilla Java
 
 All four HTML entry points (`index.html`, `about.html`, `contact.html`, `services.html`) live at the project root and are registered as build inputs in `vite.config.js` — add any new page there too.
 
+## Styling
+
+Plain CSS, no framework. `src/styles/global.css` is the design-token legend — all colors, fonts, spacing, and radii are `:root` custom properties there, plus the reset/base type and shared components (`.btn-pill`, `.section-eyebrow`, `.section-title`, `.section-sub`, `.flourish`). Each page section has its own file under `src/styles/sections/` that consumes only those tokens; everything is wired via `@import` in `src/styles/main.css`, which pages load with a `<link>` tag. Fonts: Cormorant Garamond (display serif) + Jost (body sans) via Google Fonts; icons via the Font Awesome CDN link.
+
 ## Architecture
 
 The design contract is documented in `Documentation/Architecture.md` (plus per-page layout docs in the same folder). The core rule is a strict one-way pipeline:

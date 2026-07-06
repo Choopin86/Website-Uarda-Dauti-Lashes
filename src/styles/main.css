@@ -1,0 +1,10 @@
+@import "./global.css";
+@import "./sections/header.css";
+@import "./sections/hero.css";
+@import "./sections/trust.css";
+@import "./sections/featured.css";
+@import "./sections/services.css";
+@import "./sections/achievements.css";
+@import "./sections/about.css";
+@import "./sections/cta.css";
+@import "./sections/footer.css";

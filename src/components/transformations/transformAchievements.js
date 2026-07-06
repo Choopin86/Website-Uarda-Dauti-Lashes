@@ -1,9 +1,9 @@
-export function transformAchievements(achievements, media, language) {
+export function transformAchievements(achievements, media, language, copy) {
   if (!Array.isArray(achievements)) {
     throw new Error("Achievements data must be an array");
   }
 
-  return achievements
+  const slides = achievements
     .filter((achievement) => achievement.visibility)
     .sort((a, b) => a.order - b.order)
     .map((achievement) => {
@@ -29,4 +29,14 @@ export function transformAchievements(achievements, media, language) {
         },
       };
     });
+
+  //Build Achievements UI structure
+  return {
+    type: "achievements",
+    content: {
+      heading: copy?.heading?.[language],
+      sub: copy?.sub?.[language],
+      slides: slides,
+    },
+  };
 }

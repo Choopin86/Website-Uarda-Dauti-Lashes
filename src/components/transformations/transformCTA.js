@@ -1,4 +1,4 @@
-export function transformCTA(contactInformation, language) {
+export function transformCTA(contactInformation, language, copy) {
   const instagram = contactInformation.socialLinks.find(
     (item) => item.platform === "instagram",
   );
@@ -14,6 +14,8 @@ export function transformCTA(contactInformation, language) {
   return {
     type: "CTA",
     content: {
+      heading: copy?.heading?.[language],
+      sub: copy?.sub?.[language],
       phone: contactInformation.phone,
       email: contactInformation.email,
       address: contactInformation.address[language],

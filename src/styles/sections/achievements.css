@@ -1,0 +1,118 @@
+.achievements-preview {
+  background-color: var(--ink);
+  color: var(--text-on-ink);
+  padding: var(--space-7) var(--space-4);
+  text-align: center;
+}
+
+.achievements-preview .section-title {
+  color: var(--cream);
+}
+
+.achievements-preview .section-sub {
+  color: var(--muted-on-ink);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.achievements-preview-slider {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.achievement-slide {
+  display: none;
+}
+
+.achievement-slide.active {
+  display: block;
+  animation: slide-fade 0.5s ease;
+}
+
+@keyframes slide-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.achievement-image {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+  margin: 0 auto var(--space-4);
+}
+
+.achievement-text h3 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--cream);
+  margin-bottom: var(--space-2);
+}
+
+.achievement-date {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-3);
+}
+
+.achievement-description {
+  font-size: 0.95rem;
+  color: var(--muted-on-ink);
+  max-width: 54ch;
+  margin: 0 auto var(--space-4);
+}
+
+.achievement-prizes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.achievement-prizes li {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cream);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-pill);
+  padding: 0.3em 1.2em;
+}
+
+.achievements-preview-slider .controls {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.slider-prev,
+.slider-next {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--muted-on-ink);
+  border-radius: 50%;
+  color: var(--cream);
+  font-size: 1.3rem;
+  line-height: 1;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--ink);
+}

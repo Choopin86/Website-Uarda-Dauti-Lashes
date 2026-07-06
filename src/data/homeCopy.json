@@ -1,0 +1,56 @@
+{
+  "featured": {
+    "eyebrow": {
+      "al": "Kurse profesionale",
+      "en": "Professional courses"
+    },
+    "button": {
+      "al": "Na kontaktoni",
+      "en": "Contact us"
+    }
+  },
+  "services": {
+    "heading": {
+      "al": "Shërbimet tona",
+      "en": "Our services"
+    },
+    "sub": {
+      "al": "Nga klasiku te volumi — çdo shërbim punohet me kujdes dhe produkte profesionale.",
+      "en": "From classic to volume — every service is done with care and professional products."
+    },
+    "browseAll": {
+      "al": "Shiko të gjitha shërbimet",
+      "en": "Browse all services"
+    }
+  },
+  "achievements": {
+    "heading": {
+      "al": "Arritjet tona",
+      "en": "Our achievements"
+    },
+    "sub": {
+      "al": "Fituese në garat e para kombëtare të qerpikëve në Shqipëri dhe Kosovë.",
+      "en": "Winner at the first national lash competitions in Albania and Kosovo."
+    }
+  },
+  "about": {
+    "eyebrow": {
+      "al": "Rreth nesh",
+      "en": "About us"
+    },
+    "heading": {
+      "al": "Pasion, përvojë dhe përkushtim",
+      "en": "Passion, experience and dedication"
+    }
+  },
+  "cta": {
+    "heading": {
+      "al": "Na kontaktoni",
+      "en": "Get in touch"
+    },
+    "sub": {
+      "al": "Rezervoni takimin tuaj ose na shkruani për çdo pyetje.",
+      "en": "Book your appointment or write to us with any question."
+    }
+  }
+}

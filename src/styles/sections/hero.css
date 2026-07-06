@@ -1,0 +1,81 @@
+.hero {
+  position: relative;
+  background-color: var(--ink);
+  color: var(--text-on-ink);
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: var(--space-6);
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-7);
+}
+
+/* Single sunburst flourish, top-center between text and portrait */
+.hero.flourish::before,
+.hero .flourish::before {
+  top: var(--space-5);
+  right: 46%;
+}
+
+.hero-brand {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-4);
+}
+
+.hero-slogan {
+  font-size: clamp(2.6rem, 6vw, 4.3rem);
+  color: var(--cream);
+  margin-bottom: var(--space-4);
+}
+
+.hero-text {
+  font-size: 1rem;
+  color: var(--muted-on-ink);
+  max-width: 42ch;
+}
+
+/* Arched portrait with offset outline ring */
+.hero-portrait {
+  position: relative;
+  justify-self: end;
+  width: min(100%, 420px);
+}
+
+.hero-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-arch);
+}
+
+.hero-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translate(-14px, 14px);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-arch);
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    padding-top: var(--space-5);
+  }
+
+  .hero-portrait {
+    justify-self: center;
+    order: 2;
+  }
+
+  .hero.flourish::before {
+    right: var(--space-4);
+  }
+}

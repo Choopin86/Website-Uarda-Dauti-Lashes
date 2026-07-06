@@ -1,8 +1,9 @@
 const AUTOPLAY_INTERVAL_MS = 5000;
 
 export function renderAchievements(achievementsUI, container) {
-  if (!Array.isArray(achievementsUI)) {
-    throw new Error("renderAchievements expects an array of achievements");
+  const slidesUI = achievementsUI.content?.slides;
+  if (!Array.isArray(slidesUI)) {
+    throw new Error("renderAchievements expects an achievements structure");
   }
 
   //Clear existing content and any autoplay timer from a previous render
@@ -12,13 +13,21 @@ export function renderAchievements(achievementsUI, container) {
     container._autoplayTimer = null;
   }
 
+  const heading = document.createElement("h2");
+  heading.className = "section-title";
+  heading.textContent = achievementsUI.content.heading;
+
+  const sub = document.createElement("p");
+  sub.className = "section-sub";
+  sub.textContent = achievementsUI.content.sub;
+
   const slider = document.createElement("div");
   slider.className = "achievements-preview-slider";
 
   const slides = document.createElement("div");
   slides.className = "slides";
 
-  achievementsUI.forEach((achievement, index) => {
+  slidesUI.forEach((achievement, index) => {
     const slide = document.createElement("article");
     slide.className = "achievement-slide";
     if (index === 0) slide.classList.add("active");
@@ -65,7 +74,7 @@ export function renderAchievements(achievementsUI, container) {
   slider.appendChild(slides);
 
   // Slide switching (controls + autoplay only make sense with 2+ slides)
-  if (achievementsUI.length > 1) {
+  if (slidesUI.length > 1) {
     let activeIndex = 0;
 
     const showSlide = (index) => {
@@ -111,5 +120,5 @@ export function renderAchievements(achievementsUI, container) {
     }, AUTOPLAY_INTERVAL_MS);
   }
 
-  container.appendChild(slider);
+  container.append(heading, sub, slider);
 }

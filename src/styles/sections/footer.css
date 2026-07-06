@@ -1,0 +1,58 @@
+.footer {
+  background-color: var(--ink);
+  color: var(--muted-on-ink);
+  padding: var(--space-6) var(--space-4) var(--space-4);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  max-width: var(--container);
+  margin: 0 auto var(--space-5);
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  color: var(--cream);
+  flex-basis: 100%;
+}
+
+.footer-address,
+.footer-phone,
+.footer-email,
+.footer-hours {
+  font-size: 0.9rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.footer-social a {
+  color: var(--muted-on-ink);
+  font-size: 1.15rem;
+  transition: color 0.25s ease;
+}
+
+.footer-social a:hover {
+  color: var(--accent);
+}
+
+.footer-copyright {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--ink-soft);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 640px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}

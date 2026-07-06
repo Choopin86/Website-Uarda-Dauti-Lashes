@@ -1,11 +1,13 @@
-export function transformServices(services, media, language) {
+export function transformServices(services, media, language, limit = null) {
   if (!Array.isArray(services)) {
     throw new Error("Services data must be an array");
   }
 
-  return services
+  const visible = services
     .filter((service) => service.visibility)
-    .sort((a, b) => a.order - b.order)
+    .sort((a, b) => a.order - b.order);
+
+  return (limit ? visible.slice(0, limit) : visible)
     .map((service) => {
       const resolvedMedia = (service.mediaRefs || [])
         .map((id) => media.find((item) => item.id === id))
@@ -25,6 +27,7 @@ export function transformServices(services, media, language) {
           media: resolvedMedia.map((m) => ({
             url: m.url,
             alt: m.altText?.[language],
+            type: m.type,
           })),
         },
       };

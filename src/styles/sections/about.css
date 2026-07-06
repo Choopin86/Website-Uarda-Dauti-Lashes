@@ -1,0 +1,30 @@
+.about-preview {
+  background-color: var(--cream);
+  color: var(--text-on-cream);
+  padding: var(--space-7) var(--space-4);
+}
+
+.about-content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  color: var(--muted-on-cream);
+  margin-bottom: var(--space-3);
+}
+
+.about-paragraph:first-of-type {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--text-on-cream);
+}
+
+@media (max-width: 640px) {
+  .about-preview {
+    padding: var(--space-6) var(--space-4);
+  }
+}

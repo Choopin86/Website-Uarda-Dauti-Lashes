@@ -1,0 +1,79 @@
+/* Cream card floating on the charcoal band */
+.main-cta {
+  background-color: var(--ink);
+  padding: 0 var(--space-4) var(--space-7);
+}
+
+.cta-content {
+  background-color: var(--cream);
+  color: var(--text-on-cream);
+  border-radius: calc(var(--radius-card) * 2);
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5);
+  text-align: center;
+}
+
+.main-cta .section-sub {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3) var(--space-5);
+  margin-bottom: var(--space-5);
+}
+
+.cta-item {
+  font-size: 0.95rem;
+  color: var(--text-on-cream);
+  transition: color 0.25s ease;
+}
+
+a.cta-item:hover {
+  color: var(--accent-strong);
+}
+
+.cta-hours {
+  color: var(--muted-on-cream);
+  flex-basis: 100%;
+}
+
+.cta-social {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+.cta-social a {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent-strong);
+  font-size: 1.1rem;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.cta-social a:hover {
+  background-color: var(--accent);
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .cta-content {
+    padding: var(--space-5) var(--space-4);
+  }
+
+  .cta-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}

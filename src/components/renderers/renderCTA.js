@@ -5,47 +5,57 @@ export function renderCTA(ctaUI, container) {
   const wrapper = document.createElement("div");
   wrapper.className = "cta-content";
 
-  const phone = document.createElement("h3");
+  const heading = document.createElement("h2");
+  heading.className = "section-title";
+  heading.textContent = ctaUI.content.heading;
+
+  const sub = document.createElement("p");
+  sub.className = "section-sub";
+  sub.textContent = ctaUI.content.sub;
+
+  const details = document.createElement("div");
+  details.className = "cta-details";
+
+  const phone = document.createElement("a");
+  phone.className = "cta-item";
+  phone.href = `tel:${ctaUI.content.phone.replace(/\s/g, "")}`;
   phone.textContent = ctaUI.content.phone;
 
-  const email = document.createElement("h3");
+  const email = document.createElement("a");
+  email.className = "cta-item";
+  email.href = `mailto:${ctaUI.content.email}`;
   email.textContent = ctaUI.content.email;
 
-  const address = document.createElement("p");
+  const address = document.createElement("a");
+  address.className = "cta-item";
+  address.href = ctaUI.content.location;
+  address.target = "_blank";
+  address.rel = "noopener noreferrer";
   address.textContent = ctaUI.content.address;
 
-  const instagramLink = document.createElement("a");
-  instagramLink.href = ctaUI.content.instagram.url;
-  instagramLink.target = "_blank";
-  instagramLink.rel = "noopener noreferrer";
-  const instagramIcon = document.createElement("i");
-  instagramIcon.className = ctaUI.content.instagram.icon;
-  instagramLink.appendChild(instagramIcon);
+  const openingHours = document.createElement("p");
+  openingHours.className = "cta-item cta-hours";
+  openingHours.textContent = ctaUI.content.openingHours;
 
-  const whatsappLink = document.createElement("a");
-  whatsappLink.href = ctaUI.content.whatsapp.url;
-  whatsappLink.target = "_blank";
-  whatsappLink.rel = "noopener noreferrer";
-  const whatsappIcon = document.createElement("i");
-  whatsappIcon.className = ctaUI.content.whatsapp.icon;
-  whatsappLink.appendChild(whatsappIcon);
+  details.append(phone, email, address, openingHours);
 
-  const tiktokLink = document.createElement("a");
-  tiktokLink.href = ctaUI.content.tiktok.url;
-  tiktokLink.target = "_blank";
-  tiktokLink.rel = "noopener noreferrer";
-  const tiktokIcon = document.createElement("i");
-  tiktokIcon.className = ctaUI.content.tiktok.icon;
-  tiktokLink.appendChild(tiktokIcon);
+  const socialLinks = document.createElement("div");
+  socialLinks.className = "cta-social";
+
+  [ctaUI.content.instagram, ctaUI.content.whatsapp, ctaUI.content.tiktok]
+    .filter(Boolean)
+    .forEach((social) => {
+      const anchor = document.createElement("a");
+      anchor.href = social.url;
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      const icon = document.createElement("i");
+      icon.className = social.icon;
+      anchor.appendChild(icon);
+      socialLinks.appendChild(anchor);
+    });
 
   //Assemble
-  wrapper.append(
-    phone,
-    email,
-    address,
-    instagramLink,
-    whatsappLink,
-    tiktokLink,
-  );
+  wrapper.append(heading, sub, details, socialLinks);
   container.append(wrapper);
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "trust-experience",
+    "icon": "fa-solid fa-award",
+    "label": {
+      "al": "8+ vite përvojë",
+      "en": "8+ years of experience"
+    },
+    "order": 1,
+    "visibility": true
+  },
+  {
+    "id": "trust-certified",
+    "icon": "fa-solid fa-certificate",
+    "label": {
+      "al": "Lash artist dhe trajnere e certifikuar",
+      "en": "Certified lash artist & trainer"
+    },
+    "order": 2,
+    "visibility": true
+  },
+  {
+    "id": "trust-awards",
+    "icon": "fa-solid fa-trophy",
+    "label": {
+      "al": "Fituese në garat kombëtare në Shqipëri e Kosovë",
+      "en": "Winner at national competitions in Albania & Kosovo"
+    },
+    "order": 3,
+    "visibility": true
+  },
+  {
+    "id": "trust-products",
+    "icon": "fa-solid fa-gem",
+    "label": {
+      "al": "Produkte profesionale “Rose Lashes AL”",
+      "en": "Professional “Rose Lashes AL” products"
+    },
+    "order": 4,
+    "visibility": true
+  }
+]
