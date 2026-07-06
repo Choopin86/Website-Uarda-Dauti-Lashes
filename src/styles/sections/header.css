@@ -54,6 +54,40 @@
   color: var(--ink);
 }
 
+/* Language toggle, styled like the contact pill but with two segments */
+.header .nav-links .lang-toggle {
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  color: var(--muted-on-ink);
+  border-color: var(--muted-on-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.header .nav-links .lang-toggle:hover {
+  background-color: transparent;
+  border-color: var(--accent);
+  color: var(--text-on-ink);
+}
+
+.lang-toggle__option {
+  opacity: 0.55;
+  transition:
+    opacity 0.25s ease,
+    color 0.25s ease;
+}
+
+.lang-toggle__option.is-active {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.lang-toggle__divider {
+  opacity: 0.35;
+}
+
 @media (max-width: 640px) {
   .header {
     flex-direction: column;

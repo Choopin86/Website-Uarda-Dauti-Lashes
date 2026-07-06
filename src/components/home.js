@@ -26,12 +26,13 @@ import { transformCTA } from "./transformations/transformCTA.js";
 import { renderCTA } from "./renderers/renderCTA.js";
 import { transformFooter } from "./transformations/transformFooter.js";
 import { renderFooter } from "./renderers/renderFooter.js";
+import { getLanguage, toggleLanguage } from "../utils/language.js";
 
 const FEATURED_SERVICE_ID = "service8"; // Professional Lash Courses
 const SERVICES_PREVIEW_LIMIT = 6;
 
 export function initHome() {
-  const language = "al"; //Change into a toggle function
+  const language = getLanguage();
   const headerContainer = document.querySelector(".header");
   const heroContainer = document.querySelector(".hero");
   const trustContainer = document.querySelector(".trust-strip");
@@ -73,7 +74,7 @@ export function initHome() {
   const footerUI = transformFooter(businessIdentity, contactInformation, language);
 
   //Render
-  renderHeader(headerUI, headerContainer);
+  renderHeader(headerUI, headerContainer, handleLanguageToggle);
   renderHero(heroUI, heroContainer);
   renderTrust(trustUI, trustContainer);
   renderFeaturedService(featuredUI, featuredContainer);
@@ -82,4 +83,9 @@ export function initHome() {
   renderAbout(aboutUI, aboutContainer);
   renderCTA(ctaUI, ctaContainer);
   renderFooter(footerUI, footerContainer);
+}
+
+function handleLanguageToggle() {
+  toggleLanguage();
+  initHome();
 }

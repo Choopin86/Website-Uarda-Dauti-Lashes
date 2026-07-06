@@ -17,6 +17,7 @@ export function transformHeader(navigation, businessIdentity, language) {
     content: {
       brandName: businessIdentity.brandName[language],
       links: links,
+      language,
     },
   };
 }
