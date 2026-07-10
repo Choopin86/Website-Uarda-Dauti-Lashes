@@ -32,6 +32,10 @@ Page orchestrators (currently only `src/components/home.js`, called from `src/ma
 
 When adding a section or page, follow the existing pattern: add/extend a JSON model, write a `transformX.js` and matching `renderX.js` pair, and wire them in the page's init function against a placeholder element in the HTML.
 
+## Media assets
+
+Most `mediaRefs` in `src/data/*.json` point at files that don't exist in `public/` yet — this is expected, not a bug. Write transformation/rendering code so it degrades gracefully when a referenced file or `media.json` entry is missing (skip the image/video, don't throw, don't render a broken placeholder) and renders it automatically, with no further code changes, once the real file is dropped into `public/media/` and the corresponding `media.json` entry is added. Never hardcode a check for a specific missing asset — resolve media generically by ID through `media.json` so the pipeline "just works" the moment assets land.
+
 ## Interactions
 
 Contact actions are deep links (`tel:`, `https://wa.me/<number>`, Instagram/Facebook/TikTok profile URLs) taken from `contactInformation.json` — see Section E of `Documentation/Architecture.md`.

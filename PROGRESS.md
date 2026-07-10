@@ -23,7 +23,7 @@ The **homepage and services page are designed, built, and verified in the browse
 - **Media assets** — only one real photo exists (hero portrait). `media.json` references `media1`–`media16` but defines only two entries (one being a video with a dead file path). Service cards and the featured section currently render in their intentional no-photo style; add real photos to `public/media/` + `media.json` to light them up.
 - **Language toggle** — `al` is hardcoded in `home.js`; all data is already bilingual al/en. Needs a UI toggle + persistence.
 - **Contact form** — modeled in `form.json`/architecture docs but not built; needs a mail backend or external handler (site is static).
-- **Vercel deploy** — nothing configured yet; standard static Vite build should work as-is.
+- ~~**Vercel deploy**~~ — done; live at custom domain `www.uardadautilashes.com`.
 - **Real-device mobile check** — responsive layout was verified via an embedded 390px frame (Chrome was fullscreen and couldn't be resized); spot-check on a phone after deploying.
 
 ## Decisions & rationale
@@ -45,7 +45,7 @@ The **homepage and services page are designed, built, and verified in the browse
 
 ## Next steps (suggested order)
 
-1. Review/edit drafted copy in `trustHighlights.json`, `homeCopy.json`, and `servicesCopy.json`.
-2. Build the **about page** (longBio, achievements, salon gallery) and **contact page** (form UI + a form backend such as a mail handler, plus the Maps embed).
-3. Add real photos/videos to `public/media/` and complete `media.json` entries.
-4. Deploy to Vercel; check the homepage and services page on a real phone.
+1. Plan and build the **about page** (longBio, achievements, salon gallery) — see `Documentation/About Us Page Layout.md`.
+2. Build the **contact page** (form UI + a form backend such as a mail handler, plus the Maps embed).
+3. Review/edit drafted copy in `trustHighlights.json`, `homeCopy.json`, and `servicesCopy.json`.
+4. Add real photos/videos to `public/media/` and complete `media.json` entries.
