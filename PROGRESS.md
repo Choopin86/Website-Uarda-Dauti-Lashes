@@ -18,6 +18,13 @@ The **homepage and services page are designed, built, and verified in the browse
 
 ## Pending
 
+- **Services page vs. `Documentation/Services Page Layout.md` — 4 gaps found (2026-07-10), start here tomorrow:**
+  1. **Section 1 "Page Header Section" is entirely missing.** Doc requires a dedicated intro block (services intro text + cover image, from `BusinessIdentityModel`/`MediaModel`, no links/buttons). `services.html` only has the shared nav `<header>` — no placeholder, transform, or render function exists for it.
+  2. **Section 4 "Booking CTA" doesn't match the doc.** Doc: Instagram-only action, "not the full icon set used on the homepage/footer," scoped to the currently open service, with visible text like "Message us about [Service Title]" next to it (Instagram can't pre-fill DM text). Actual `transformBookingCTA`/`renderBookingCTA` render phone + WhatsApp + Instagram + TikTok (the full icon set) and take no service/serviceId — not scoped, no service-title text anywhere.
+  3. **Section 2 "Services List" cards have an undocumented direct "Book Now" link** (straight to the Instagram `book-link`, added per the 2026-07-06 "Book button on every service card" change). Doc's only specified card interaction is opening the detail view; this creates two competing booking paths and undercuts Section 4's purpose as documented.
+  4. **Minor: cards render a `category` field** not listed in the doc's Section 2 "Displays" (title, shortDescription, duration, price, thumbnail) — undocumented, not necessarily wrong.
+  - Sections 3 (Detailed View) and 5 (Footer) were checked and match the doc correctly.
+
 - **Sub-pages still skeletons** — `about.html` and `contact.html` have placeholder sections, no scripts, no styling, and don't load any entry script yet. `services.html` is now done; reuse the same pattern (page orchestrator + dedicated `main-<page>.js` entry) for the remaining two.
 - **Copy review (user)** — everything Claude drafted is isolated in `src/data/trustHighlights.json`, `src/data/homeCopy.json`, and `src/data/servicesCopy.json` (section headings, sub-lines, dialog labels). Edit the JSON directly. Trust-strip Font Awesome icons are also swappable there.
 - **Media assets** — only one real photo exists (hero portrait). `media.json` references `media1`–`media16` but defines only two entries (one being a video with a dead file path). Service cards and the featured section currently render in their intentional no-photo style; add real photos to `public/media/` + `media.json` to light them up.
@@ -28,20 +35,20 @@ The **homepage and services page are designed, built, and verified in the browse
 
 ## Decisions & rationale
 
-| Decision | Why |
-|---|---|
-| Pages flattened to root URLs (moved files, not config tricks) | Zero extra code; dev URLs match production; done while pages had no inbound links |
-| Nav links live in `navigation.json`, headings in `homeCopy.json` | Architecture rule: UI originates from data only; keeps future language toggle trivial |
-| Trust-strip/philosophy copy drafted only from `bio.json` facts | User instruction: no invented marketing claims; all drafts flagged for review |
-| Featured service = Professional Lash Courses (`service8`) | User's pick: it's the differentiator and targets a second audience (students) |
-| Achievements slider + contact CTA kept and restyled | User's pick: competition wins are real trust content |
-| Slider has autoplay, stops on manual interaction | User's pick over manual-only |
-| Services preview shows top 6 by `order` + browse-all link | Layout doc: "top N according to order field"; full list belongs to services page |
-| Missing media refs are skipped, never fatal | `media.json` is incomplete by design right now; pages must render without photos |
-| Cormorant Garamond + Jost via Google Fonts | Brief demanded serif display + non-Inter sans; matches reference's elegant mood |
-| CSS `:has()` used for image-less card / featured layout variants | Keeps renderers free of layout logic; fine for modern browsers |
-| Service detail uses native `<dialog>` + `showModal()` | Free focus trap, Escape-to-close, and `::backdrop`; backdrop-click-to-close added manually via a geometry check |
-| "Book now" in the detail dialog scrolls to the booking row instead of holding its own deep links | Layout doc constraint: detail view must not include booking actions itself |
+| Decision                                                                                         | Why                                                                                                             |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Pages flattened to root URLs (moved files, not config tricks)                                    | Zero extra code; dev URLs match production; done while pages had no inbound links                               |
+| Nav links live in `navigation.json`, headings in `homeCopy.json`                                 | Architecture rule: UI originates from data only; keeps future language toggle trivial                           |
+| Trust-strip/philosophy copy drafted only from `bio.json` facts                                   | User instruction: no invented marketing claims; all drafts flagged for review                                   |
+| Featured service = Professional Lash Courses (`service8`)                                        | User's pick: it's the differentiator and targets a second audience (students)                                   |
+| Achievements slider + contact CTA kept and restyled                                              | User's pick: competition wins are real trust content                                                            |
+| Slider has autoplay, stops on manual interaction                                                 | User's pick over manual-only                                                                                    |
+| Services preview shows top 6 by `order` + browse-all link                                        | Layout doc: "top N according to order field"; full list belongs to services page                                |
+| Missing media refs are skipped, never fatal                                                      | `media.json` is incomplete by design right now; pages must render without photos                                |
+| Cormorant Garamond + Jost via Google Fonts                                                       | Brief demanded serif display + non-Inter sans; matches reference's elegant mood                                 |
+| CSS `:has()` used for image-less card / featured layout variants                                 | Keeps renderers free of layout logic; fine for modern browsers                                                  |
+| Service detail uses native `<dialog>` + `showModal()`                                            | Free focus trap, Escape-to-close, and `::backdrop`; backdrop-click-to-close added manually via a geometry check |
+| "Book now" in the detail dialog scrolls to the booking row instead of holding its own deep links | Layout doc constraint: detail view must not include booking actions itself                                      |
 
 ## Next steps (suggested order)
 

@@ -88,3 +88,23 @@ A visitor shouldn't be asked to act (call, book, message) until they've been giv
 - Displays: Business name, address, social links, copyright text
 - Interactions: open social links and contact methods
 - Constraints: no dynamic content beyond contact info; the language toggle is not duplicated here — it lives only in the header (Section 1)
+
+---
+
+## Module Map
+
+Which `transformX`/`renderX` pairs are exclusive to this page vs. shared with other page orchestrators (currently just `src/components/home.js` and `src/components/services.js`). Re-derive this by checking those two files' imports if pages are added later — don't assume it stays accurate on its own.
+
+**Exclusive to Home** — free to change without checking other pages:
+- `transformHero` / `renderHero`
+- `transformTrust` / `renderTrust`
+- `transformFeaturedService` / `renderFeaturedService`
+- `transformServicesPreview` / `renderServices` (renderer is named `renderServices`, not `renderServicesPreview`)
+- `transformAchievements` / `renderAchievements`
+- `transformAbout` / `renderAbout`
+- `transformCTA` / `renderCTA`
+
+**Shared with other pages** — check every importing page before changing output shape:
+- `transformHeader` / `renderHeader` — also used by `services.js`
+- `transformFooter` / `renderFooter` — also used by `services.js`
+- `transformServices.js` — not imported directly by any page orchestrator; it's a shared low-level helper called internally by both `transformServicesPreview.js` (Home) and `transformServicesList.js` (Services page)
