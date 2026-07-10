@@ -2,6 +2,56 @@
   {
     "id": "achievement1",
     "CompetitionName": {
+      "al": "The Lash Creators Congress. Kategoria: Fantazi, Tema: Zjarri",
+      "en": "The Lash Creators Congress. Nomination: Fantasy, Theme: Fire"
+    },
+    "CompetitionCountry": {
+      "al": "Romë, Itali",
+      "en": "Rome, Italy"
+    },
+    "date": "2026-07-01",
+    "PrizesWon": {
+      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
+      "en": ["1st Prize", "3 Best Work"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  },
+  {
+    "id": "achievement2",
+    "CompetitionName": {
+      "al": "Konkursi Kombëtarë. Kategoria: Klasik",
+      "en": "National Competition. Nomination: Classic"
+    },
+    "CompetitionCountry": {
+      "al": "Tiranë, Albania",
+      "en": "Tirana, Albania"
+    },
+    "Organizer": {
+      "al": "Filan Fistekja",
+      "en": "Filan Fistekja"
+    },
+    "date": "2025-07-01",
+    "PrizesWon": {
+      "al": ["Çmimi 1-rë", "Çmimi: Mbesa më e mirë"],
+      "en": ["1st Prize", "Best Niece Ever"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  },
+  {
+    "id": "achievement3",
+    "CompetitionName": {
       "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
       "en": "International Congress. Nomination: Fantasy, Theme: Fire"
     },
@@ -27,23 +77,77 @@
     }
   },
   {
-    "id": "achievement1",
+    "id": "achievement4",
     "CompetitionName": {
-      "al": "Konkursi Kombëtarë. Kategoria: Klasik",
-      "en": "National Competition. Nomination: Classic"
+      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
+      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
     },
     "CompetitionCountry": {
-      "al": "Tiranë, Albania",
-      "en": "Tirana, Albania"
+      "al": "Romë, Itali",
+      "en": "Rome, Italy"
     },
     "Organizer": {
       "al": "Filan Fistekja",
       "en": "Filan Fistekja"
     },
-    "date": "2025-07-01",
+    "date": "2026-07-01",
     "PrizesWon": {
-      "al": ["Çmimi 1-rë", "Çmimi: Mbesa më e mirë"],
-      "en": ["1st Prize", "Best Niece Ever"]
+      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
+      "en": ["1st Prize", "3 Best Work"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  },
+  {
+    "id": "achievement5",
+    "CompetitionName": {
+      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
+      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
+    },
+    "CompetitionCountry": {
+      "al": "Romë, Itali",
+      "en": "Rome, Italy"
+    },
+    "Organizer": {
+      "al": "Filan Fistekja",
+      "en": "Filan Fistekja"
+    },
+    "date": "2026-07-01",
+    "PrizesWon": {
+      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
+      "en": ["1st Prize", "3 Best Work"]
+    },
+    "mediaRefs": ["media1", "media2"],
+    "visibility": true,
+    "order": 1,
+    "description": {
+      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
+      "en": "Optional description of the achievement highlighting the significance or context."
+    }
+  },
+  {
+    "id": "achievement6",
+    "CompetitionName": {
+      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
+      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
+    },
+    "CompetitionCountry": {
+      "al": "Romë, Itali",
+      "en": "Rome, Italy"
+    },
+    "Organizer": {
+      "al": "Filan Fistekja",
+      "en": "Filan Fistekja"
+    },
+    "date": "2026-07-01",
+    "PrizesWon": {
+      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
+      "en": ["1st Prize", "3 Best Work"]
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,

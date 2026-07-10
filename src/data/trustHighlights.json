@@ -3,8 +3,8 @@
     "id": "trust-experience",
     "icon": "fa-solid fa-award",
     "label": {
-      "al": "8+ vite përvojë",
-      "en": "8+ years of experience"
+      "al": "Afro 10 vjet përvojë",
+      "en": "Almost 10 years of experience"
     },
     "order": 1,
     "visibility": true
@@ -13,7 +13,7 @@
     "id": "trust-certified",
     "icon": "fa-solid fa-certificate",
     "label": {
-      "al": "Lash artist dhe trajnere e certifikuar",
+      "al": "Artiste qerpikësh dhe trajnere e certifikuar",
       "en": "Certified lash artist & trainer"
     },
     "order": 2,
@@ -23,7 +23,7 @@
     "id": "trust-awards",
     "icon": "fa-solid fa-trophy",
     "label": {
-      "al": "Fituese në garat kombëtare në Shqipëri e Kosovë",
+      "al": "Fituese në garat kombëtare dhe ndërkombëtare",
       "en": "Winner at national competitions in Albania & Kosovo"
     },
     "order": 3,
