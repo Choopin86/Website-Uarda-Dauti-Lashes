@@ -38,9 +38,7 @@ export function initHome() {
   const trustContainer = document.querySelector(".trust-strip");
   const featuredContainer = document.querySelector(".featured-service");
   const servicesContainer = document.querySelector(".services-preview");
-  const achievementsContainer = document.querySelector(
-    ".achievements-preview",
-  );
+  const achievementsContainer = document.querySelector(".achievements-preview");
   const aboutContainer = document.querySelector(".about-preview");
   const ctaContainer = document.querySelector(".main-cta");
   const footerContainer = document.querySelector(".footer");
@@ -72,7 +70,11 @@ export function initHome() {
   );
   const aboutUI = transformAbout(bio, homeCopy.about, language);
   const ctaUI = transformCTA(contactInformation, language, homeCopy.cta);
-  const footerUI = transformFooter(businessIdentity, contactInformation, language);
+  const footerUI = transformFooter(
+    businessIdentity,
+    contactInformation,
+    language,
+  );
 
   //Render
   renderHeader(headerUI, headerContainer, handleLanguageToggle);
