@@ -7,6 +7,8 @@ import servicesCopy from "../data/servicesCopy.json";
 
 import { transformHeader } from "./transformations/transformHeader.js";
 import { renderHeader } from "./renderers/renderHeader.js";
+import { transformServicesIntro } from "./transformations/transformServicesIntro.js";
+import { renderServicesIntro } from "./renderers/renderServicesIntro.js";
 import { transformServicesList } from "./transformations/transformServicesList.js";
 import { renderServicesList } from "./renderers/renderServicesList.js";
 import { transformServiceDetail } from "./transformations/transformServiceDetail.js";
@@ -20,12 +22,14 @@ import { getLanguage, toggleLanguage } from "../utils/language.js";
 export function initServices() {
   const language = getLanguage();
   const headerContainer = document.querySelector(".header");
+  const servicesIntroContainer = document.querySelector(".services-intro");
   const servicesListContainer = document.querySelector(".services-list");
   const bookingCtaContainer = document.querySelector(".booking-cta");
   const footerContainer = document.querySelector(".footer");
 
   //Transform
   const headerUI = transformHeader(navigation, businessIdentity, language);
+  const servicesIntroUI = transformServicesIntro(businessIdentity, media, language);
   const servicesListUI = transformServicesList(
     services,
     media,
@@ -38,6 +42,7 @@ export function initServices() {
 
   //Render
   renderHeader(headerUI, headerContainer, handleLanguageToggle);
+  renderServicesIntro(servicesIntroUI, servicesIntroContainer);
   renderServicesList(servicesListUI, servicesListContainer, (serviceId) =>
     handleSelectService(serviceId, language),
   );

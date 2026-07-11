@@ -11,5 +11,10 @@
     "al": "Qerpikë të kuruar me precizion, elegancë dhe pasion profesional",
     "en": "Lashes crafted with precision, elegance, and professional passion"
   },
-  "heroImage": "hero-image-id"
+  "heroImage": "hero-image-id",
+  "servicesIntroText": {
+    "al": "Çdo shërbim ofrohet me precizion, kujdes dhe përvojën e një artisteje të certifikuar, për qerpikë që zgjasin dhe duken natyrshëm të bukur.",
+    "en": "Every service is delivered with precision, care, and the experience of a certified artist, for lashes that last and look naturally beautiful."
+  },
+  "servicesCoverImage": "services-cover-image-id"
 }

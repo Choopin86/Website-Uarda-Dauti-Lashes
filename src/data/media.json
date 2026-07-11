@@ -26,5 +26,19 @@
     "type": "video",
     "belongsToServiceId": "service2",
     "belongsToAchievementId": null
+  },
+  {
+    "id": "services-cover-image-id",
+    "fileName": "services_cover.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 0,
+    "url": "/media/pictures/services_cover.jpeg",
+    "altText": {
+      "al": "Foto kopertine e shërbimeve të sallonit",
+      "en": "Cover photo for the salon's services"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": null
   }
 ]

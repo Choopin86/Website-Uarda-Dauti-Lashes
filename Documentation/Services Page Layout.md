@@ -70,6 +70,7 @@
 Which `transformX`/`renderX` pairs are exclusive to this page vs. shared with other page orchestrators (currently just `src/components/home.js` and `src/components/services.js`). Re-derive this by checking those two files' imports if pages are added later — don't assume it stays accurate on its own.
 
 **Exclusive to Services** — free to change without checking other pages:
+- `transformServicesIntro` / `renderServicesIntro`
 - `transformServicesList` / `renderServicesList`
 - `transformServiceDetail` / `renderServiceDetail`
 - `transformBookingCTA` / `renderBookingCTA`

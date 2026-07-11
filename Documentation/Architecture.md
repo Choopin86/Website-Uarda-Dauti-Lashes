@@ -124,6 +124,8 @@ Purpose of this section: Section C exist to provide stability to the whole syste
 - brand slogan
 - hero text
 - hero image
+- services intro text
+- services cover image
 
 **ContactInformationModel:**
 

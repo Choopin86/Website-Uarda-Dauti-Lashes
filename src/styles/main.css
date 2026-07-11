@@ -4,6 +4,7 @@
 @import "./sections/trust.css";
 @import "./sections/featured.css";
 @import "./sections/services.css";
+@import "./sections/services-intro.css";
 @import "./sections/services-list.css";
 @import "./sections/detailed-view.css";
 @import "./sections/achievements.css";
