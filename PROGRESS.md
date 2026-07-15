@@ -11,6 +11,7 @@ Homepage and services page are built, run the full JSON → transform → render
 - Homepage — all 9 sections wired and verified.
 - Services page — all 5 sections wired and verified (intro banner, full services list, detail dialog, booking CTA row, footer). Both "Book now" buttons (service card and detail dialog) open the Instagram DM link (`contactInformation.json`'s `book-link`) directly. The bottom Booking CTA section is the full icon set (phone/WhatsApp/Instagram/TikTok), general-purpose, not scoped to a service. `Documentation/Services Page Layout.md` is up to date with this behavior.
 - Deployed to Vercel at the custom domain.
+- Language toggle — implemented in `src/utils/language.js`, wired into both `home.js` and `services.js`; all data is already bilingual.
 
 ## Pending (suggested order)
 
@@ -18,8 +19,7 @@ Homepage and services page are built, run the full JSON → transform → render
 2. **Contact page** — form UI + backend (site is static, needs a mail handler) + Maps embed.
 3. **Copy review (owner)** — drafted copy lives in `src/data/trustHighlights.json`, `homeCopy.json`, `servicesCopy.json`, and `businessIdentity.json`'s `servicesIntroText`. Edit those JSON files directly.
 4. **Media assets** — `media.json` references `media1`–`media16` but only a few have real files; add photos/videos to `public/media/` to light up remaining cards.
-5. **Language toggle** — `al` is hardcoded in `home.js`/`services.js`; all data is already bilingual. Needs a UI toggle + persistence.
-6. **Real-device mobile check** — only verified via a simulated viewport so far.
+5. **Real-device mobile check** — ongoing; owner is checking the live site on their own smartphone regularly.
 
 ## Non-obvious decisions worth knowing
 

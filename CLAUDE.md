@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Multi-page marketing website for a lash salon (Uarda Dauti Lashes). Vanilla JavaScript + Vite, no framework and no tests. Content is bilingual (Albanian `al` / English `en`); `al` is currently hardcoded as the active language in `src/components/home.js`.
+Multi-page marketing website for a lash salon (Uarda Dauti Lashes). Vanilla JavaScript + Vite, no framework and no tests. Content is bilingual (Albanian `al` / English `en`); a language toggle (`src/utils/language.js`) persists the active language via `localStorage` and defaults to `al`. Wired into `home.js` and `services.js`.
 
 ## Commands
 
