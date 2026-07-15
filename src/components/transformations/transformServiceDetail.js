@@ -1,4 +1,11 @@
-export function transformServiceDetail(services, media, copy, language, serviceId) {
+export function transformServiceDetail(
+  services,
+  media,
+  copy,
+  language,
+  serviceId,
+  contactInformation,
+) {
   const service = services.find(
     (item) => item.id === serviceId && item.visibility,
   );
@@ -23,6 +30,7 @@ export function transformServiceDetail(services, media, copy, language, serviceI
       policies: service.policies?.[language],
       videoDescription: service.videoDescription?.[language],
       imageDescription: service.imageDescription?.[language],
+      bookLink: contactInformation?.["book-link"],
       media: resolvedMedia.map((m) => ({
         url: m.url,
         alt: m.altText?.[language],

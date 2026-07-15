@@ -63,16 +63,12 @@ function handleSelectService(serviceId, language) {
     servicesCopy.detail,
     language,
     serviceId,
+    contactInformation,
   );
 
-  renderServiceDetail(detailUI, dialog, () => handleBookNow(dialog));
+  renderServiceDetail(detailUI, dialog);
   bindBackdropClose(dialog);
   dialog.showModal();
-}
-
-function handleBookNow(dialog) {
-  dialog.close();
-  document.querySelector(".booking-cta")?.scrollIntoView({ behavior: "smooth" });
 }
 
 function bindBackdropClose(dialog) {

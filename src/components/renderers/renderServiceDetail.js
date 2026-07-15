@@ -1,4 +1,4 @@
-export function renderServiceDetail(detailUI, dialog, onBookNow) {
+export function renderServiceDetail(detailUI, dialog) {
   // Clear existing content
   dialog.innerHTML = "";
 
@@ -77,13 +77,12 @@ export function renderServiceDetail(detailUI, dialog, onBookNow) {
     wrapper.append(policiesLabel, policies);
   }
 
-  const bookButton = document.createElement("button");
-  bookButton.type = "button";
+  const bookButton = document.createElement("a");
   bookButton.className = "btn-pill btn-pill--solid detail-book";
+  bookButton.href = detailUI.content.bookLink;
+  bookButton.target = "_blank";
+  bookButton.rel = "noopener noreferrer";
   bookButton.textContent = detailUI.content.labels.bookNow;
-  bookButton.addEventListener("click", () => {
-    if (typeof onBookNow === "function") onBookNow();
-  });
   wrapper.appendChild(bookButton);
 
   dialog.appendChild(wrapper);

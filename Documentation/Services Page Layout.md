@@ -13,10 +13,12 @@
 ## 2. Services List Section
 
 - Purpose: Present a complete list of all available services.
-- Consumes data from: ServiceModel, MediaModel
-- Displays: Service title, shortDescription, duration, price, thumbnail
+- Consumes data from: ServiceModel, MediaModel, ContactInformationModel
+- Displays: Service title, shortDescription, duration, price, thumbnail, category, a "Book now" button
 - Selection logic: order by `order` field (ascending); display only where `visibility = true`
-- Interactions: selecting a service opens the Services Detailed View for that service
+- Interactions:
+  - Selecting the card (anywhere outside the "Book now" button) opens the Services Detailed View for that service
+  - The "Book now" button opens the business's Instagram DM thread directly (`contactInformation.json`'s `book-link`) in a new tab — it does not open the Detailed View or the Booking CTA Section (4); click/keydown propagation is stopped so it doesn't also trigger card selection
 - Constraints:
   - Must only display media referenced by that specific service's `mediaRefs`
   - If a service has no media reference resolved yet, the card renders with **no photo** — this is not a fallback/degraded state, it's the correct rendering for a service that genuinely has no photo yet. No placeholder image, no "coming soon" graphic. As soon as `media.json` gains a real entry for that service, the card should pick it up automatically with no other code change.
@@ -27,16 +29,15 @@
 ## 3. Services Detailed View (dialog)
 
 - Purpose: Present detailed information about a single service.
-- Consumes data from: ServiceModel, MediaModel
-- Displays: service title, description, duration, price, policies, video description, images of final result (all `mediaRefs`)
+- Consumes data from: ServiceModel, MediaModel, ContactInformationModel
+- Displays: service title, description, duration, price, policies, video description, images of final result (all `mediaRefs`), a "Book now" button
 - Interactions:
-  - Opens when a Services List card is selected
+  - Opens when a Services List card is selected (anywhere outside that card's own "Book now" button)
   - Closes via explicit close control (✕), tap/click outside the dialog, and Escape key
-  - From within the dialog, the user can open the Booking CTA Section for this service
+  - The "Book now" button opens the business's Instagram DM thread directly (`contactInformation.json`'s `book-link`), the same action and destination as the Services List card's "Book now" button — it is a shortcut to the same booking channel, not the general Booking CTA Section (4)
 - Constraints:
   - Renders as a component, driven entirely by ServiceModel + MediaModel for the selected service
   - Must display only media referenced by that service's `mediaRefs`
-  - Must not include booking actions directly — booking lives in its own section (4)
   - Must not modify any global state
   - Only one dialog instance visible at a time
 
@@ -44,14 +45,14 @@
 
 ## 4. Booking CTA Section
 
-- Purpose: Let the user act on the specific service they were just viewing, not a generic "contact us."
-- Consumes data from: ServiceModel (for the currently open service), ContactInformationModel
-- Displays: Instagram action (per owner's request — this is the sole booking channel here, not the full icon set used on the homepage/footer)
-- Interactions: tapping the Instagram action opens a direct message thread with the business's Instagram account
+- Purpose: General-purpose booking prompt at the end of the page — not scoped to whichever service the user last viewed. Service-specific booking is handled by the "Book now" button on each Services List card and inside the Detailed View (Sections 2 and 3).
+- Consumes data from: ContactInformationModel
+- Displays: full icon set — phone (tel:), WhatsApp, Instagram, TikTok — same set used on the homepage/footer
+- Interactions: tapping an icon opens the corresponding deep link (call, WhatsApp chat, Instagram profile, TikTok profile)
 - Constraints:
-  - The deep link must resolve to the business's Instagram profile/DM thread from `contactInformation.json`
-  - **Known platform limitation:** Instagram does not support pre-filling DM text via deep link (unlike WhatsApp's `?text=`). The service name therefore cannot be auto-inserted into the message. To preserve context without that: display the service title as visible text right next to the Instagram action (e.g. "Message us about [Service Title]"), so the user can reference it themselves once the DM thread opens.
-  - This section is scoped to a single service at a time — it is not a substitute for the general Contact CTA / footer social links elsewhere on the site
+  - Deep links resolve from `contactInformation.json`
+  - Positioned at the end of the page, immediately before the Footer section
+  - Icons only, no heading/copy
 
 ---
 
