@@ -35,3 +35,14 @@ When adding a section or page, follow the existing pattern: add/extend a JSON mo
 ## Interactions
 
 Contact actions are deep links (`tel:`, `https://wa.me/<number>`, Instagram/Facebook/TikTok profile URLs) taken from `contactInformation.json` — see Section E of `Documentation/Architecture.md`.
+
+## Learning-mode workflow (About page build)
+
+The owner is building the About page (`about.html`) themselves as a learning exercise and asked to be guided step by step rather than have the code written for them. When resuming this work, keep using this method:
+
+- **Claude does not write the implementation code.** Point to an existing analogous file already in the codebase (e.g. `transformServicesIntro.js`/`renderServicesIntro.js` as the model for `transformAboutHeader.js`/`renderAboutHeader.js`) and describe the shape/pattern to follow; the owner writes the actual code.
+- **Break every step into small fractions** — one small, concrete edit at a time (e.g. "just the function skeleton," then "just the media lookup," then "just one field of the return object"). Do not hand over a multi-part step in one message; the owner explicitly asked for smaller fractions than the original plan.
+- **After each fraction**, the owner says "done, check it" — read the file fresh (don't trust the diff from memory) and either confirm it's correct or explain *why* it's a bug (root cause, not just the fix) before moving to the next fraction.
+- **If a file appears unchanged after "done"**, say so plainly and ask the owner to confirm the save reached disk, rather than assuming the fix was applied.
+- Progress is tracked via the task list (`TaskCreate`/`TaskUpdate`) with one task per page section: Page Header, Business Story (+ `portraitMediaId` data gap), Achievements (reuse existing `transformAchievements`/`renderAchievements` from the homepage as-is), Salon Environment (+ `category`/`visibility` data gap in `media.json`), orchestrator wiring, and final browser verification. See `Documentation/About Us Page Layout.md` for the 5 numbered sections being built.
+- **Current resume point:** `renderAboutHeader.js` — step 2f, rendering `brandName` (as an `<h1>`) and `brandSlogan` (as a `<p>`) into the container, appended after the existing `heroImage` block.

@@ -40,5 +40,19 @@
     "type": "image",
     "belongsToServiceId": null,
     "belongsToAchievementId": null
+  },
+  {
+    "id": "portrait-media-id",
+    "fileName": "portrait.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 0,
+    "url": "/media/pictures/portrait.jpeg",
+    "altText": {
+      "al": "Foto portret e artistes së qerpikëve",
+      "en": "Portrait picture of the lash artist"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": null
   }
 ]
