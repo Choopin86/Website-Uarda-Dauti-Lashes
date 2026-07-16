@@ -4,7 +4,7 @@ _Last updated: 2026-07-16_
 
 ## Current state
 
-Homepage and services page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html` build is in progress (Header and Bio sections completed).
+Homepage and services page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html`'s structural build (JSON → transform → render pipeline, all sections wired, orchestrator wiring, language toggle) is complete and verified in-browser — no CSS has been written for it yet, that's a deliberate separate pass, not a gap.
 
 ## Done
 
@@ -12,11 +12,11 @@ Homepage and services page are built, run the full JSON → transform → render
 - Services page — all 5 sections wired and verified (intro banner, full services list, detail dialog, booking CTA row, footer). Both "Book now" buttons (service card and detail dialog) open the Instagram DM link (`contactInformation.json`'s `book-link`) directly. The bottom Booking CTA section is the full icon set (phone/WhatsApp/Instagram/TikTok), general-purpose, not scoped to a service. `Documentation/Services Page Layout.md` is up to date with this behavior.
 - Deployed to Vercel at the custom domain.
 - Language toggle — implemented in `src/utils/language.js`, wired into both `home.js` and `services.js`; all data is already bilingual.
-- About page — Header and Business Story (Bio) sections completed.
+- About page — structural build complete: Page Header, Business Story (Bio), Achievements (reused from homepage), shared Header/Footer orchestrator wiring. Verified in both languages, no console errors. Salon Environment section was dropped per client decision (removed from doc, markup, and progress notes — no src code had been written for it).
 
 ## Pending (suggested order)
 
-1. **About page** — Achievements section (in progress), orchestrator wiring, final browser verification. (Salon Environment section dropped per client decision.)
+1. **About page styling** — no CSS exists yet for `.about-header`, `.business-story`/`.portrait-container`/`.bio-container`, or `.achievements-section` (the latter only partially inherits shared achievement styles; the `.achievements-preview`-scoped background/heading rules don't apply since the About page uses a different section class).
 2. **Contact page** — form UI + backend (site is static, needs a mail handler) + Maps embed.
 3. **Copy review (owner)** — drafted copy lives in `src/data/trustHighlights.json`, `homeCopy.json`, `servicesCopy.json`, and `businessIdentity.json`'s `servicesIntroText`. Edit those JSON files directly.
 4. **Media assets** — `media.json` references `media1`–`media16` but only a few have real files; add photos/videos to `public/media/` to light up remaining cards.
@@ -27,3 +27,4 @@ Homepage and services page are built, run the full JSON → transform → render
 - Featured homepage service is Professional Lash Courses (`service8`) — deliberate pick, it's the differentiator and targets a second audience (students).
 - Missing `media.json` refs are skipped, never fatal — intentional (data is incomplete by design right now), not a bug to "fix" by adding fallback images.
 - Copy in the JSON files listed under Pending #3 was Claude-drafted from `bio.json` facts only (no invented marketing claims) and still needs owner sign-off.
+- About page's structural build was deliberately finished before any styling — owner's call, to keep the JSON→transform→render learning exercise separate from the CSS pass. `about.html` renders unstyled/raw right now; that's expected, not a bug.
