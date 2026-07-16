@@ -1,6 +1,7 @@
 export function renderAboutHeader(aboutHeaderUI, container) {
   //Clear existing content
   container.innerHTML = "";
+
   const { heroImage, brandName, brandSlogan } = aboutHeaderUI.content;
 
   if (heroImage) {
