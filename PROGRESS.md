@@ -16,7 +16,7 @@ Homepage and services page are built, run the full JSON → transform → render
 
 ## Pending (suggested order)
 
-1. **About page** — Achievements section (in progress), Salon Environment section, orchestrator wiring, final browser verification.
+1. **About page** — Achievements section (in progress), orchestrator wiring, final browser verification. (Salon Environment section dropped per client decision.)
 2. **Contact page** — form UI + backend (site is static, needs a mail handler) + Maps embed.
 3. **Copy review (owner)** — drafted copy lives in `src/data/trustHighlights.json`, `homeCopy.json`, `servicesCopy.json`, and `businessIdentity.json`'s `servicesIntroText`. Edit those JSON files directly.
 4. **Media assets** — `media.json` references `media1`–`media16` but only a few have real files; add photos/videos to `public/media/` to light up remaining cards.

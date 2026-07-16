@@ -35,16 +35,7 @@
 
 ---
 
-## **4. Salon Environment Section**
-
-- **Purpose: Introduces the Salon’s amenities and environment.**
-- **Consumes data from: MediaModel**
-- **Displays: Items from MediaModel belonging to the Salon Environment through metadata**
-- **Selection logic: Display all MediaModel entries whose category = "environment" and visibility = true.**
-- **Interactions: N/a**
-- **Constraints: Media must adhere to MediaModel’s file format, type, and size requirements.**
-
-## **5. Footer Section**
+## **4. Footer Section**
 
 ---
 
