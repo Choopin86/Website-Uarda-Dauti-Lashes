@@ -1,6 +1,7 @@
-export function renderAboutBio(aboutBioUi, container) {
+export function renderAboutBio(aboutBioUi, portraitContainer, bioContainer) {
   //Clear existing content
-  container.innerHTML = "";
+  portraitContainer.innerHTML = "";
+  bioContainer.innerHTML = "";
 
   const { shortBio, portraitImage } = aboutBioUi.content;
 
@@ -8,7 +9,7 @@ export function renderAboutBio(aboutBioUi, container) {
     const image = document.createElement("img");
     image.src = portraitImage.url;
     image.alt = portraitImage.alt;
-    container.appendChild(image);
+    portraitContainer.appendChild(image);
   }
 
   const bioText = shortBio.map((paragraph) => {
@@ -16,5 +17,5 @@ export function renderAboutBio(aboutBioUi, container) {
     p.textContent = paragraph;
     return p;
   });
-  container.append(...bioText);
+  bioContainer.append(...bioText);
 }
