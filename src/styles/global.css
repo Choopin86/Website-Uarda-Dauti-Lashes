@@ -33,6 +33,7 @@
   --radius-pill: 999px;
   --radius-card: 14px;
   --radius-arch: 45% 45% 0 0;
+  --radius-circle: 50%;
 
   /* Layout */
   --container: 1160px;

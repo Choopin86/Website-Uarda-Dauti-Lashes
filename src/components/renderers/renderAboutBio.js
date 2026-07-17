@@ -7,6 +7,7 @@ export function renderAboutBio(aboutBioUi, portraitContainer, bioContainer) {
 
   if (portraitImage) {
     const image = document.createElement("img");
+    image.classList.add("about-portrait");
     image.src = portraitImage.url;
     image.alt = portraitImage.alt;
     portraitContainer.appendChild(image);
@@ -14,6 +15,7 @@ export function renderAboutBio(aboutBioUi, portraitContainer, bioContainer) {
 
   const bioText = shortBio.map((paragraph) => {
     const p = document.createElement("p");
+    p.classList.add("about-bio-paragraph");
     p.textContent = paragraph;
     return p;
   });

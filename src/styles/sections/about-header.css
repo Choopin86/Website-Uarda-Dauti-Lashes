@@ -1,0 +1,47 @@
+.about-header-wrapper {
+  display: grid;
+  grid-template-columns: 1.05fr 1.05fr;
+  align-items: center;
+  gap: var(--space-6);
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.about-header {
+  background-color: var(--ink);
+  color: var(--text-on-ink);
+  padding: var(--space-7) var(--space-4);
+  position: relative;
+}
+
+.about-brand-name {
+  font-size: clamp(2.6rem, 6vw, 4.3rem);
+  color: var(--cream);
+  margin-bottom: var(--space-4);
+}
+
+.about-brand-slogan {
+  font-size: 1rem;
+  color: var(--muted-on-ink);
+  max-width: 42ch;
+}
+
+.about-header-portrait {
+  position: relative;
+}
+
+.about-hero-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-circle);
+}
+
+.about-header-portrait::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-circle);
+  pointer-events: none;
+}

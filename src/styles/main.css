@@ -9,5 +9,7 @@
 @import "./sections/detailed-view.css";
 @import "./sections/achievements.css";
 @import "./sections/about.css";
+@import "./sections/about-header.css";
+@import "./sections/business-story.css";
 @import "./sections/cta.css";
 @import "./sections/footer.css";

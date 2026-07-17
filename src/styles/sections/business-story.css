@@ -1,0 +1,41 @@
+.business-story-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.05fr 1.05fr;
+  gap: var(--space-6);
+  max-width: var(--container);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.business-story {
+  background-color: var(--cream);
+  color: var(--text-on-cream);
+  padding: var(--space-7) var(--space-4);
+}
+
+.about-portrait {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-circle);
+}
+
+.portrait-container {
+  position: relative;
+}
+
+.portrait-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-circle);
+  pointer-events: none;
+}
+
+.about-bio-paragraph {
+  font-size: 1.3rem;
+  color: var(--text-on-cream);
+  margin-bottom: var(--space-3);
+}
