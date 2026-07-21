@@ -39,3 +39,15 @@
   color: var(--text-on-cream);
   margin-bottom: var(--space-3);
 }
+
+@media (max-width: 900px) {
+  .business-story-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .portrait-container {
+    justify-self: center;
+    width: min(100%, 320px);
+  }
+}

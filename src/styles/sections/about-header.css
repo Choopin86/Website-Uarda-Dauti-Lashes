@@ -45,3 +45,15 @@
   border-radius: var(--radius-circle);
   pointer-events: none;
 }
+
+@media (max-width: 900px) {
+  .about-header-wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .about-header-portrait {
+    justify-self: center;
+    width: min(100%, 320px);
+  }
+}
