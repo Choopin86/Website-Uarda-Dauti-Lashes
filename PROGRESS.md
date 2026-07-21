@@ -1,6 +1,6 @@
 # Progress — Uarda Dauti Lashes Website
 
-_Last updated: 2026-07-17_
+_Last updated: 2026-07-21_
 
 ## Current state
 
@@ -28,6 +28,6 @@ Homepage and services page are built, run the full JSON → transform → render
 - Featured homepage service is Professional Lash Courses (`service8`) — deliberate pick, it's the differentiator and targets a second audience (students).
 - Missing `media.json` refs are skipped, never fatal — intentional (data is incomplete by design right now), not a bug to "fix" by adding fallback images.
 - Copy in the JSON files listed under Pending #3 was Claude-drafted from `bio.json` facts only (no invented marketing claims) and still needs owner sign-off.
-- About page's structural build was deliberately finished before any styling — owner's call, to keep the JSON→transform→render learning exercise separate from the CSS pass.
+- About page's structural build was deliberately finished before any styling — owner's call, to keep the JSON→transform→render build separate from the CSS pass. (The About page was originally built with Claude guiding step-by-step and the owner writing the code, as a learning exercise; that workflow has since ended — Claude now writes code directly like on the rest of the site.)
 - Full-bleed section backgrounds require the `max-width`/`margin: 0 auto` centering to live on a separate inner wrapper, never on the same element as the section's `background-color` — otherwise the background gets clipped to the centered content width. Found and fixed on both `.about-header` and `.business-story` this session; worth checking for on any new section.
 - Renderers must assign a `className` to every element they create (even plain text nodes like bio paragraphs) — `renderAboutHeader.js` and `renderAboutBio.js` were missing this and had to be retrofitted; every other renderer (e.g. `renderHero.js`, `renderTrust.js`) already follows this convention.
