@@ -4,7 +4,7 @@ _Last updated: 2026-07-21_
 
 ## Current state
 
-Homepage and services page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html`'s structural build and styling pass are both complete and verified in-browser in both languages, including mobile widths (900px grid-collapse breakpoint added to Page Header/Business Story; Achievements section given its own dark-background/title-color treatment scoped to `.achievements-section`).
+Homepage, services page, and About page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html` is complete against `Documentation/About Us Page Layout.md` — structural build, styling pass, and the Business Story expand/collapse interaction are all done and verified in-browser in both languages, including mobile widths (900px grid-collapse breakpoint added to Page Header/Business Story; Achievements section given its own dark-background/title-color treatment scoped to `.achievements-section`).
 
 ## Done
 
