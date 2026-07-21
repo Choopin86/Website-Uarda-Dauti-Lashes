@@ -27,8 +27,11 @@ export function renderContactInformation(contactInformationUI, container) {
   const phoneLink = document.createElement("a");
   phoneLink.className = "contact-information-link";
   phoneLink.href = contactInformationUI.content.phone.href;
-  phoneLink.textContent = contactInformationUI.content.phone.display;
-  phoneRow.append(phoneIconWrap, phoneLink);
+  phoneLink.append(
+    phoneIconWrap,
+    document.createTextNode(contactInformationUI.content.phone.display),
+  );
+  phoneRow.append(phoneLink);
 
   //Email row
   const emailRow = document.createElement("div");
@@ -41,8 +44,11 @@ export function renderContactInformation(contactInformationUI, container) {
   const emailLink = document.createElement("a");
   emailLink.className = "contact-information-link";
   emailLink.href = contactInformationUI.content.email.href;
-  emailLink.textContent = contactInformationUI.content.email.display;
-  emailRow.append(emailIconWrap, emailLink);
+  emailLink.append(
+    emailIconWrap,
+    document.createTextNode(contactInformationUI.content.email.display),
+  );
+  emailRow.append(emailLink);
 
   //Address row (plain text, no external link — Map section owns navigation)
   const addressRow = document.createElement("div");
