@@ -2,6 +2,7 @@
   background-color: var(--ink);
   color: var(--muted-on-ink);
   padding: var(--space-6) var(--space-4) var(--space-4);
+  border-top: 1px solid var(--accent);
 }
 
 .footer-content {
