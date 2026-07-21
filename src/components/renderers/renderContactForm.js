@@ -92,7 +92,7 @@ export function renderContactForm(
 
   //Submit button
   const submitButton = document.createElement("button");
-  submitButton.className = "btn-pill contact-form-submit";
+  submitButton.className = "btn-pill btn-pill--solid contact-form-submit";
   submitButton.type = "submit";
   submitButton.textContent = content.submitLabel;
 
@@ -111,7 +111,17 @@ export function renderContactForm(
     messagesContainer.innerHTML = "";
     const message = document.createElement("p");
     message.className = `form-message form-message--${status}`;
-    message.textContent = text;
+
+    const icon = document.createElement("i");
+    icon.className =
+      status === "success"
+        ? "fa-solid fa-circle-check"
+        : "fa-solid fa-circle-exclamation";
+
+    const messageText = document.createElement("span");
+    messageText.textContent = text;
+
+    message.append(icon, messageText);
     messagesContainer.appendChild(message);
   }
 

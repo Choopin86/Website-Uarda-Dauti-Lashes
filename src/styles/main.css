@@ -12,4 +12,6 @@
 @import "./sections/about-header.css";
 @import "./sections/business-story.css";
 @import "./sections/cta.css";
+@import "./sections/contact-information.css";
+@import "./sections/contact-form.css";
 @import "./sections/footer.css";

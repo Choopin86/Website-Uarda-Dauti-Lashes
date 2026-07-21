@@ -1,0 +1,107 @@
+.contact-information {
+  background-color: var(--cream);
+  color: var(--text-on-cream);
+  padding: var(--space-7) var(--space-4);
+  text-align: center;
+}
+
+.contact-information-content {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.contact-information-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-5);
+  margin-top: var(--space-5);
+}
+
+.contact-information-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.contact-information-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-circle);
+  color: var(--accent-strong);
+  font-size: 1.15rem;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+/* Only rows with a real deep link (phone/email) fill on hover —
+   a quiet signal that these do something, unlike address/hours */
+.contact-information-row:has(.contact-information-link):hover
+  .contact-information-icon {
+  background-color: var(--accent);
+  color: var(--ink);
+}
+
+.contact-information-link,
+.contact-information-text {
+  font-size: 0.9rem;
+  max-width: 22ch;
+  transition: color 0.25s ease;
+}
+
+.contact-information-link {
+  color: var(--text-on-cream);
+}
+
+.contact-information-link:hover {
+  color: var(--accent-strong);
+}
+
+.contact-information-text {
+  color: var(--muted-on-cream);
+}
+
+.contact-information-social {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--cream-deep);
+}
+
+.contact-information-social-link {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-circle);
+  color: var(--accent-strong);
+  font-size: 1.1rem;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.contact-information-social-link:hover {
+  background-color: var(--accent);
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .contact-information-details {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-information-details {
+    grid-template-columns: 1fr;
+  }
+}
