@@ -4,7 +4,7 @@ _Last updated: 2026-07-21_
 
 ## Current state
 
-Homepage and services page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html`'s structural build is complete. Its styling pass is in progress: Page Header and Business Story sections are now styled and verified; Achievements section styling is next.
+Homepage and services page are built, run the full JSON → transform → render pipeline, and are verified in-browser (no console errors, production build passes). Live at `www.uardadautilashes.com`. `contact.html` is an HTML skeleton. `about.html`'s structural build and styling pass are both complete and verified in-browser in both languages, including mobile widths (900px grid-collapse breakpoint added to Page Header/Business Story; Achievements section given its own dark-background/title-color treatment scoped to `.achievements-section`).
 
 ## Done
 
@@ -13,15 +13,15 @@ Homepage and services page are built, run the full JSON → transform → render
 - Deployed to Vercel at the custom domain.
 - Language toggle — implemented in `src/utils/language.js`, wired into both `home.js` and `services.js`; all data is already bilingual.
 - About page — structural build complete: Page Header, Business Story (Bio), Achievements (reused from homepage), shared Header/Footer orchestrator wiring. Verified in both languages, no console errors. Salon Environment section was dropped per client decision (removed from doc, markup, and progress notes — no src code had been written for it).
-- About page styling — Page Header (`.about-header`) and Business Story (`.business-story`/`.portrait-container`/`.bio-container`) sections are styled: circular portrait frames (new `--radius-circle` token), side-by-side grid layouts with a portrait-first column order (owner's deliberate choice, differs from the homepage hero's text-first order), full-bleed section backgrounds with a centered inner content wrapper (matching the `.trust-strip`/`.trust-items` pattern). New files: `src/styles/sections/about-header.css`, `business-story.css`.
+- About page styling — complete. Page Header (`.about-header`) and Business Story (`.business-story`/`.portrait-container`/`.bio-container`) sections: circular portrait frames (new `--radius-circle` token), side-by-side grid layouts with a portrait-first column order (owner's deliberate choice, differs from the homepage hero's text-first order), full-bleed section backgrounds with a centered inner content wrapper (matching the `.trust-strip`/`.trust-items` pattern). New files: `src/styles/sections/about-header.css`, `business-story.css`. Achievements section (`.achievements-section`, reusing homepage's `renderAchievements`) got its own dark-background/padding and `.section-title`/`.section-sub` color overrides added to the existing `achievements.css`, mirroring the homepage's `.achievements-preview` treatment — no new file needed since the inner slider styles are already unscoped and shared. Both grid sections also got a `900px` mobile breakpoint (collapses to one column, caps portrait width at 320px) since they were the only two-column grid sections in the codebase missing one; verified in-browser at 1280px/900px/375px/320px and in both languages.
 
 ## Pending (suggested order)
 
-1. **About page styling — remaining** — `.achievements-section` still needs its container background/padding and `.section-title`/`.section-sub` color overrides (most inner achievement styles are already unscoped in `achievements.css` and apply automatically). Then a final in-browser check of the whole page in both languages.
-2. **Contact page** — form UI + backend (site is static, needs a mail handler) + Maps embed.
-3. **Copy review (owner)** — drafted copy lives in `src/data/trustHighlights.json`, `homeCopy.json`, `servicesCopy.json`, and `businessIdentity.json`'s `servicesIntroText`. Edit those JSON files directly.
-4. **Media assets** — `media.json` references `media1`–`media16` but only a few have real files; add photos/videos to `public/media/` to light up remaining cards. (`portrait.jpeg` was added this session for the About page's bio/header images.)
-5. **Real-device mobile check** — ongoing; owner is checking the live site on their own smartphone regularly.
+1. **Contact page** — form UI + backend (site is static, needs a mail handler) + Maps embed.
+2. **Copy review (owner)** — drafted copy lives in `src/data/trustHighlights.json`, `homeCopy.json`, `servicesCopy.json`, and `businessIdentity.json`'s `servicesIntroText`. Edit those JSON files directly.
+3. **Media assets** — `media.json` references `media1`–`media16` but only a few have real files; add photos/videos to `public/media/` to light up remaining cards. (`portrait.jpeg` was added earlier for the About page's bio/header images.)
+4. **Real-device mobile check** — ongoing; owner is checking the live site on their own smartphone regularly.
+5. **Business Story "expand to view longBio" interaction** — `Documentation/About Us Page Layout.md` section 2 specifies this, but it hasn't been confirmed as implemented; worth checking `renderAboutBio.js`/`bio.json` before considering the About page fully done against spec.
 
 ## Non-obvious decisions worth knowing
 
