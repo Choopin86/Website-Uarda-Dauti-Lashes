@@ -9,6 +9,8 @@ import { transformContactInformation } from "./transformations/transformContactI
 import { renderContactInformation } from "./renderers/renderContactInformation.js";
 import { transformContactForm } from "./transformations/transformContactForm.js";
 import { renderContactForm } from "./renderers/renderContactForm.js";
+import { transformMap } from "./transformations/transformMap.js";
+import { renderMap } from "./renderers/renderMap.js";
 import { transformFooter } from "./transformations/transformFooter.js";
 import { renderFooter } from "./renderers/renderFooter.js";
 import { getLanguage, toggleLanguage } from "../utils/language.js";
@@ -20,6 +22,8 @@ export function initContact() {
   const formInstructionsContainer = document.querySelector(".form-instructions");
   const formMessagesContainer = document.querySelector(".form-messages");
   const formContainer = document.querySelector(".contact-form");
+  const mapContainer = document.querySelector(".map-container");
+  const mapAdditionalContainer = document.querySelector(".map .additional");
   const footerContainer = document.querySelector(".footer");
 
   //Transform
@@ -30,6 +34,7 @@ export function initContact() {
     language,
   );
   const contactFormUI = transformContactForm(contactCopy.form, language);
+  const mapUI = transformMap(contactInformation, contactCopy.map, language);
   const footerUI = transformFooter(
     businessIdentity,
     contactInformation,
@@ -44,6 +49,7 @@ export function initContact() {
     formMessagesContainer,
     formContainer,
   );
+  renderMap(mapUI, mapContainer, mapAdditionalContainer);
   renderFooter(footerUI, footerContainer);
 }
 

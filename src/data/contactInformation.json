@@ -7,6 +7,7 @@
     "en": "Abdi Toptani Street, Torre Drin, ground floor"
   },
   "location": "https://maps.app.goo.gl/zK5uKnduDaECQs6f7",
+  "GPS": { "lat": 41.3271906, "lng": 19.820781 },
   "openingHours": {
     "al": "E hënë - E premte: 09:00 - 17:00, E shtunë: 09:00 - 14:00",
     "en": "Mon-Fri: 09:00 - 17:00, Sat: 09:00 - 14:00"

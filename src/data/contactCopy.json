@@ -32,5 +32,19 @@
       "al": "Faleminderit! Mesazhi juaj u mor.",
       "en": "Thank you! Your message has been received."
     }
+  },
+  "map": {
+    "mapLabel": {
+      "al": "Harta e vendndodhjes së sallonit",
+      "en": "Map of the salon's location"
+    },
+    "fallbackLead": {
+      "al": "Nëse harta nuk shfaqet, na gjeni në adresën:",
+      "en": "If the map doesn't load, find us at:"
+    },
+    "directionsLabel": {
+      "al": "Merr udhëzimet",
+      "en": "Get directions"
+    }
   }
 }
