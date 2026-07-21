@@ -1,0 +1,36 @@
+{
+  "information": {
+    "eyebrow": { "al": "Kontakt", "en": "Contact" },
+    "title": { "al": "Si të na kontaktoni", "en": "How to reach us" }
+  },
+  "form": {
+    "instructions": {
+      "al": "Plotësoni formularin më poshtë dhe do t'ju kontaktojmë sa më shpejt.",
+      "en": "Fill out the form below and we'll get back to you as soon as possible."
+    },
+    "labels": {
+      "fullName": { "al": "Emri dhe Mbiemri", "en": "Full Name" },
+      "email": { "al": "Adresa Email", "en": "Email Address" },
+      "fullAddress": { "al": "Adresa e Plotë", "en": "Full Address" },
+      "telNumber": { "al": "Numri i Telefonit", "en": "Phone Number" },
+      "message": { "al": "Mesazhi", "en": "Message" }
+    },
+    "consentLabel": {
+      "al": "Pranoj të kontaktohem në lidhje me kërkesën time.",
+      "en": "I agree to be contacted regarding my inquiry."
+    },
+    "submitLabel": { "al": "Dërgo Mesazhin", "en": "Send Message" },
+    "requiredError": {
+      "al": "Ju lutem plotësoni të gjitha fushat e kërkuara.",
+      "en": "Please fill in all required fields."
+    },
+    "consentError": {
+      "al": "Ju lutem konfirmoni pranimin për t'u kontaktuar.",
+      "en": "Please confirm your consent to be contacted."
+    },
+    "successMessage": {
+      "al": "Faleminderit! Mesazhi juaj u mor.",
+      "en": "Thank you! Your message has been received."
+    }
+  }
+}
