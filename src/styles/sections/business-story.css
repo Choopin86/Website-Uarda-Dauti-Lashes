@@ -40,6 +40,26 @@
   margin-bottom: var(--space-3);
 }
 
+.bio-toggle {
+  display: inline-block;
+  margin-top: var(--space-2);
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.bio-toggle:hover {
+  color: var(--accent-strong);
+}
+
 @media (max-width: 900px) {
   .business-story-content {
     grid-template-columns: 1fr;
@@ -49,5 +69,9 @@
   .portrait-container {
     justify-self: center;
     width: min(100%, 320px);
+  }
+
+  .about-bio-paragraph {
+    font-size: 1.1rem;
   }
 }

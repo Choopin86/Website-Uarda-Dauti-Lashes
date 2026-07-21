@@ -1,0 +1,12 @@
+{
+  "bio": {
+    "readMore": {
+      "al": "Lexo më shumë",
+      "en": "Read more"
+    },
+    "readLess": {
+      "al": "Lexo më pak",
+      "en": "Read less"
+    }
+  }
+}

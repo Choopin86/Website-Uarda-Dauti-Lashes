@@ -5,6 +5,7 @@ import media from "../data/media.json";
 import navigation from "../data/navigation.json";
 import achievements from "../data/achievements.json";
 import homeCopy from "../data/homeCopy.json";
+import aboutCopy from "../data/aboutCopy.json";
 
 import { transformHeader } from "./transformations/transformHeader.js";
 import { renderHeader } from "./renderers/renderHeader.js";
@@ -30,7 +31,7 @@ export function initAbout() {
   //Transform
   const headerUI = transformHeader(navigation, businessIdentity, language);
   const aboutHeaderUI = transformAboutHeader(businessIdentity, media, language);
-  const aboutBioUI = transformAboutBio(bio, media, language);
+  const aboutBioUI = transformAboutBio(bio, media, language, aboutCopy.bio);
   const achievementsUI = transformAchievements(
     achievements,
     media,
