@@ -2,159 +2,79 @@
   {
     "id": "achievement1",
     "CompetitionName": {
-      "al": "The Lash Creators Congress. Kategoria: Fantazi, Tema: Zjarri",
-      "en": "The Lash Creators Congress. Nomination: Fantasy, Theme: Fire"
+      "al": "Lash Evolution Albania 2024",
+      "en": "Lash Evolution Albania 2024"
     },
     "CompetitionCountry": {
-      "al": "Romë, Itali",
-      "en": "Rome, Italy"
+      "al": "Shqipëri",
+      "en": "Albania"
     },
-    "date": "2026-07-01",
+    "date": "2024",
     "PrizesWon": {
-      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
-      "en": ["1st Prize", "3 Best Work"]
+      "al": [
+        "Vendi i parë - Qerpikë Klasik",
+        "Vendi i dytë - Qerpikë Volum",
+        "4 Çmime nga juria: Punimi më i mirë"
+      ],
+      "en": [
+        "1st Place - Classic Lashes",
+        "2nd Place - Volume Lashes",
+        "4 Jury Awards: Best Work"
+      ]
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
+    "order": 1
   },
   {
     "id": "achievement2",
     "CompetitionName": {
-      "al": "Konkursi Kombëtarë. Kategoria: Klasik",
-      "en": "National Competition. Nomination: Classic"
+      "al": "Lash Legacy Conference 2025",
+      "en": "Lash Legacy Conference 2025"
     },
     "CompetitionCountry": {
-      "al": "Tiranë, Albania",
-      "en": "Tirana, Albania"
+      "al": "Shqipëri",
+      "en": "Albania"
     },
-    "Organizer": {
-      "al": "Filan Fistekja",
-      "en": "Filan Fistekja"
-    },
-    "date": "2025-07-01",
+    "date": "2025",
     "PrizesWon": {
-      "al": ["Çmimi 1-rë", "Çmimi: Mbesa më e mirë"],
-      "en": ["1st Prize", "Best Niece Ever"]
+      "al": [
+        "Vendi i parë - Qerpikë Klasik",
+        "Vendi i dytë - Qerpikë Wet Look",
+        "Vendi i tretë - Qerpikë Volum",
+        "Vendi i tretë - Efekti Penel"
+      ],
+      "en": [
+        "1st Place - Classic Lashes",
+        "2nd Place - Wet Look Lashes",
+        "3rd Place - Volume Lashes",
+        "3rd Place - Brush Effect"
+      ]
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
+    "order": 2
   },
   {
     "id": "achievement3",
     "CompetitionName": {
-      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
-      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
+      "al": "The Lash Creators Congress 2026",
+      "en": "The Lash Creators Congress 2026"
     },
     "CompetitionCountry": {
-      "al": "Romë, Itali",
-      "en": "Rome, Italy"
+      "al": "Itali",
+      "en": "Italy"
     },
-    "Organizer": {
-      "al": "Filan Fistekja",
-      "en": "Filan Fistekja"
-    },
-    "date": "2026-07-01",
+    "date": "2026",
     "PrizesWon": {
-      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
-      "en": ["1st Prize", "3 Best Work"]
+      "al": [
+        "Vendi i parë - Fantazi, Tema: Zjarri",
+        "3 Çmime nga juria - Punimi më i mirë"
+      ],
+      "en": ["1st Place - Fantasy, Theme: Fire", "3 Jury Awards - Best Work"]
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
-  },
-  {
-    "id": "achievement4",
-    "CompetitionName": {
-      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
-      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
-    },
-    "CompetitionCountry": {
-      "al": "Romë, Itali",
-      "en": "Rome, Italy"
-    },
-    "Organizer": {
-      "al": "Filan Fistekja",
-      "en": "Filan Fistekja"
-    },
-    "date": "2026-07-01",
-    "PrizesWon": {
-      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
-      "en": ["1st Prize", "3 Best Work"]
-    },
-    "mediaRefs": ["media1", "media2"],
-    "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
-  },
-  {
-    "id": "achievement5",
-    "CompetitionName": {
-      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
-      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
-    },
-    "CompetitionCountry": {
-      "al": "Romë, Itali",
-      "en": "Rome, Italy"
-    },
-    "Organizer": {
-      "al": "Filan Fistekja",
-      "en": "Filan Fistekja"
-    },
-    "date": "2026-07-01",
-    "PrizesWon": {
-      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
-      "en": ["1st Prize", "3 Best Work"]
-    },
-    "mediaRefs": ["media1", "media2"],
-    "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
-  },
-  {
-    "id": "achievement6",
-    "CompetitionName": {
-      "al": "Kongresi Ndërkombëtar. Kategoria: Fantazi, Tema: Zjarri",
-      "en": "International Congress. Nomination: Fantasy, Theme: Fire"
-    },
-    "CompetitionCountry": {
-      "al": "Romë, Itali",
-      "en": "Rome, Italy"
-    },
-    "Organizer": {
-      "al": "Filan Fistekja",
-      "en": "Filan Fistekja"
-    },
-    "date": "2026-07-01",
-    "PrizesWon": {
-      "al": ["Çmimi 1-rë", "3 Çmime: Punimi më i mirë"],
-      "en": ["1st Prize", "3 Best Work"]
-    },
-    "mediaRefs": ["media1", "media2"],
-    "visibility": true,
-    "order": 1,
-    "description": {
-      "al": "Përshkrim opsional i arritjes duke theksuar rëndësinë ose kontekstin.",
-      "en": "Optional description of the achievement highlighting the significance or context."
-    }
+    "order": 3
   }
 ]
