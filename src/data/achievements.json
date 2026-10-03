@@ -24,7 +24,7 @@
     },
     "mediaRefs": ["media1", "media2"],
     "visibility": true,
-    "order": 1
+    "order": 3
   },
   {
     "id": "achievement2",
@@ -73,8 +73,13 @@
       ],
       "en": ["1st Place - Fantasy, Theme: Fire", "3 Jury Awards - Best Work"]
     },
-    "mediaRefs": ["media1", "media2"],
+    "mediaRefs": [
+      "achievement3-media1",
+      "achievement3-media2",
+      "achievement3-media3",
+      "achievement3-media4"
+    ],
     "visibility": true,
-    "order": 3
+    "order": 1
   }
 ]

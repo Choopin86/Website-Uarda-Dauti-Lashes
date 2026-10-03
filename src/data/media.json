@@ -54,5 +54,61 @@
     "type": "image",
     "belongsToServiceId": null,
     "belongsToAchievementId": null
+  },
+  {
+    "id": "achievement3-media1",
+    "fileName": "Achievement3-media1.jpg",
+    "fileFormat": "jpg",
+    "fileSize": 538453,
+    "url": "/media/pictures/Achievements/Achievement3-media1.jpg",
+    "altText": {
+      "al": "Look konkurrues me temë zjarri - grim i fytyrës blu, vijë e kuqe dhe kapele me pupla të kuqe e të zeza",
+      "en": "Fire-themed competition look - blue face paint, red streak, and red-and-black feather headpiece"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement3"
+  },
+  {
+    "id": "achievement3-media2",
+    "fileName": "Achievement3-media2.jpg",
+    "fileFormat": "jpg",
+    "fileSize": 701127,
+    "url": "/media/pictures/Achievements/Achievement3-media2.jpg",
+    "altText": {
+      "al": "Pamje nga afër e qerpikëve ekstenshën të finalizuar nga puna fituese",
+      "en": "Close-up of the finished lash extensions from the award-winning look"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement3"
+  },
+  {
+    "id": "achievement3-media3",
+    "fileName": "Achievement3-media3.jpg",
+    "fileFormat": "jpg",
+    "fileSize": 330814,
+    "url": "/media/pictures/Achievements/Achievement3-media3.jpg",
+    "altText": {
+      "al": "Uarda Dauti duke aplikuar ngjyrën e trupit gjatë përgatitjes së punimit konkurrues",
+      "en": "Uarda Dauti applying body paint while preparing the competition look"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement3"
+  },
+  {
+    "id": "achievement3-media4",
+    "fileName": "Achievement3-media4.jpg",
+    "fileFormat": "jpg",
+    "fileSize": 331978,
+    "url": "/media/pictures/Achievements/Achievement3-media4.jpg",
+    "altText": {
+      "al": "Uarda Dauti duke punuar detajet e kuqe të grimit gjatë përgatitjes së punimit konkurrues",
+      "en": "Uarda Dauti working on the red paint details while preparing the competition look"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement3"
   }
 ]
