@@ -51,10 +51,6 @@ export function renderAchievements(achievementsUI, container) {
     date.className = "achievement-date";
     date.textContent = achievement.content.date;
 
-    const description = document.createElement("p");
-    description.className = "achievement-description";
-    description.textContent = achievement.content.description;
-
     const prizes = document.createElement("ul");
     prizes.className = "achievement-prizes";
     achievement.content.prizes.forEach((prize) => {
@@ -65,7 +61,14 @@ export function renderAchievements(achievementsUI, container) {
 
     const textWrapper = document.createElement("div");
     textWrapper.className = "achievement-text";
-    textWrapper.append(title, date, description, prizes);
+    textWrapper.append(title, date, prizes);
+
+    if (achievement.content.description) {
+      const description = document.createElement("p");
+      description.className = "achievement-description";
+      description.textContent = achievement.content.description;
+      textWrapper.insertBefore(description, prizes);
+    }
 
     slide.appendChild(textWrapper);
     slides.appendChild(slide);
