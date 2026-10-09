@@ -22,7 +22,12 @@
         "4 Jury Awards: Best Work"
       ]
     },
-    "mediaRefs": ["media1", "media2"],
+    "mediaRefs": [
+      "achievement1-media1",
+      "achievement1-media2",
+      "achievement1-media3",
+      "achievement1-media4"
+    ],
     "visibility": true,
     "order": 3
   },

@@ -110,5 +110,61 @@
     "type": "image",
     "belongsToServiceId": null,
     "belongsToAchievementId": "achievement3"
+  },
+  {
+    "id": "achievement1-media1",
+    "fileName": "Achievement1-media1.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 284803,
+    "url": "/media/pictures/Achievements/Achievement1-media1.jpeg",
+    "altText": {
+      "al": "Uarda Dauti në skenë me mikrofon dhe trofe, e rrethuar nga dy gra, njëra prej të cilave mban një pllakë çmimi",
+      "en": "Uarda Dauti on stage with a microphone and trophy, flanked by two women, one holding an award plaque"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement1"
+  },
+  {
+    "id": "achievement1-media2",
+    "fileName": "Achievement1-media2.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 299515,
+    "url": "/media/pictures/Achievements/Achievement1-media2.jpeg",
+    "altText": {
+      "al": "Uarda Dauti duke përqafuar një grua tjetër në skenë, duke mbajtur pllakën e çmimit special",
+      "en": "Uarda Dauti embracing another woman on stage, holding the Special Prize plaque"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement1"
+  },
+  {
+    "id": "achievement1-media3",
+    "fileName": "Achievement1-media3.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 279226,
+    "url": "/media/pictures/Achievements/Achievement1-media3.jpeg",
+    "altText": {
+      "al": "Uarda Dauti dhe një grua tjetër duke pozuar bashkë me pllakën e çmimit special",
+      "en": "Uarda Dauti and another woman posing together with the Special Prize plaque"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement1"
+  },
+  {
+    "id": "achievement1-media4",
+    "fileName": "Achievement1-media4.jpeg",
+    "fileFormat": "jpeg",
+    "fileSize": 349260,
+    "url": "/media/pictures/Achievements/Achievement1-media4.jpeg",
+    "altText": {
+      "al": "Foto grupi me katër gra duke mbajtur trofe në ceremoninë e çmimeve",
+      "en": "Group photo of four women holding trophies at the award ceremony"
+    },
+    "type": "image",
+    "belongsToServiceId": null,
+    "belongsToAchievementId": "achievement1"
   }
 ]
