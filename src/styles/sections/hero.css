@@ -19,7 +19,7 @@
 }
 
 .hero-brand {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
 }
 
 .hero-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--muted-on-ink);
   max-width: 42ch;
 }

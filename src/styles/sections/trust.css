@@ -32,7 +32,7 @@
 }
 
 .trust-label {
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.04em;
   color: var(--muted-on-cream);
@@ -48,6 +48,6 @@
 
 @media (max-width: 480px) {
   .trust-items {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
