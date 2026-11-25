@@ -45,6 +45,7 @@ export function renderAchievements(achievementsUI, container) {
         const img = document.createElement("img");
         img.src = image.url;
         img.alt = image.alt || achievement.content.competitionName;
+        img.loading = "lazy";
         img.className = "achievement-image";
         if (imageIndex === 0) img.classList.add("active");
         galleryImages.appendChild(img);

@@ -10,6 +10,8 @@ export function renderServicesIntro(servicesIntroUI, container) {
     const image = document.createElement("img");
     image.src = coverImage.url;
     image.alt = coverImage.alt;
+    image.loading = "eager";
+    image.fetchPriority = "high";
     media.appendChild(image);
     container.appendChild(media);
 

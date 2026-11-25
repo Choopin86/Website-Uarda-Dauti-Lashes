@@ -20,6 +20,8 @@ export function renderAboutHeader(aboutHeaderUI, container) {
     const image = document.createElement("img");
     image.src = heroImage.url;
     image.alt = heroImage.alt;
+    image.loading = "eager";
+    image.fetchPriority = "high";
     image.classList.add("about-hero-image");
     aboutHeaderPortrait.appendChild(image);
   }

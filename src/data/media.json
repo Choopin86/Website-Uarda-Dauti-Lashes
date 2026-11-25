@@ -1,10 +1,10 @@
 [
   {
     "id": "hero-image-id",
-    "fileName": "hero_image.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 7823145,
-    "url": "/media/pictures/hero_image.jpeg",
+    "fileName": "hero_image.webp",
+    "fileFormat": "webp",
+    "fileSize": 29712,
+    "url": "/media/pictures/hero_image.webp",
     "altText": {
       "al": "Uarda Dauti - Artiste a qerpikëve ekstenshën",
       "en": "Uarda Dauti - Lash Extension Artist"
@@ -29,10 +29,10 @@
   },
   {
     "id": "services-cover-image-id",
-    "fileName": "services_cover.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 0,
-    "url": "/media/pictures/services_cover.jpeg",
+    "fileName": "services_cover.webp",
+    "fileFormat": "webp",
+    "fileSize": 81360,
+    "url": "/media/pictures/services_cover.webp",
     "altText": {
       "al": "Foto kopertine e shërbimeve të sallonit",
       "en": "Cover photo for the salon's services"
@@ -43,10 +43,10 @@
   },
   {
     "id": "portrait-media-id",
-    "fileName": "portrait.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 0,
-    "url": "/media/pictures/portrait.jpeg",
+    "fileName": "portrait.webp",
+    "fileFormat": "webp",
+    "fileSize": 122464,
+    "url": "/media/pictures/portrait.webp",
     "altText": {
       "al": "Foto portret e artistes së qerpikëve",
       "en": "Portrait picture of the lash artist"
@@ -57,10 +57,10 @@
   },
   {
     "id": "achievement3-media1",
-    "fileName": "Achievement3-media1.jpg",
-    "fileFormat": "jpg",
-    "fileSize": 538453,
-    "url": "/media/pictures/Achievements/Achievement3-media1.jpg",
+    "fileName": "Achievement3-media1.webp",
+    "fileFormat": "webp",
+    "fileSize": 100696,
+    "url": "/media/pictures/Achievements/Achievement3-media1.webp",
     "altText": {
       "al": "Look konkurrues me temë zjarri - grim i fytyrës blu, vijë e kuqe dhe kapele me pupla të kuqe e të zeza",
       "en": "Fire-themed competition look - blue face paint, red streak, and red-and-black feather headpiece"
@@ -71,10 +71,10 @@
   },
   {
     "id": "achievement3-media2",
-    "fileName": "Achievement3-media2.jpg",
-    "fileFormat": "jpg",
-    "fileSize": 701127,
-    "url": "/media/pictures/Achievements/Achievement3-media2.jpg",
+    "fileName": "Achievement3-media2.webp",
+    "fileFormat": "webp",
+    "fileSize": 148350,
+    "url": "/media/pictures/Achievements/Achievement3-media2.webp",
     "altText": {
       "al": "Pamje nga afër e qerpikëve ekstenshën të finalizuar nga puna fituese",
       "en": "Close-up of the finished lash extensions from the award-winning look"
@@ -85,10 +85,10 @@
   },
   {
     "id": "achievement3-media3",
-    "fileName": "Achievement3-media3.jpg",
-    "fileFormat": "jpg",
-    "fileSize": 330814,
-    "url": "/media/pictures/Achievements/Achievement3-media3.jpg",
+    "fileName": "Achievement3-media3.webp",
+    "fileFormat": "webp",
+    "fileSize": 44794,
+    "url": "/media/pictures/Achievements/Achievement3-media3.webp",
     "altText": {
       "al": "Uarda Dauti duke aplikuar ngjyrën e trupit gjatë përgatitjes së punimit konkurrues",
       "en": "Uarda Dauti applying body paint while preparing the competition look"
@@ -99,10 +99,10 @@
   },
   {
     "id": "achievement3-media4",
-    "fileName": "Achievement3-media4.jpg",
-    "fileFormat": "jpg",
-    "fileSize": 331978,
-    "url": "/media/pictures/Achievements/Achievement3-media4.jpg",
+    "fileName": "Achievement3-media4.webp",
+    "fileFormat": "webp",
+    "fileSize": 50092,
+    "url": "/media/pictures/Achievements/Achievement3-media4.webp",
     "altText": {
       "al": "Uarda Dauti duke punuar detajet e kuqe të grimit gjatë përgatitjes së punimit konkurrues",
       "en": "Uarda Dauti working on the red paint details while preparing the competition look"
@@ -113,10 +113,10 @@
   },
   {
     "id": "achievement1-media1",
-    "fileName": "Achievement1-media1.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 284803,
-    "url": "/media/pictures/Achievements/Achievement1-media1.jpeg",
+    "fileName": "Achievement1-media1.webp",
+    "fileFormat": "webp",
+    "fileSize": 58766,
+    "url": "/media/pictures/Achievements/Achievement1-media1.webp",
     "altText": {
       "al": "Uarda Dauti në skenë me mikrofon dhe trofe, e rrethuar nga dy gra, njëra prej të cilave mban një pllakë çmimi",
       "en": "Uarda Dauti on stage with a microphone and trophy, flanked by two women, one holding an award plaque"
@@ -127,10 +127,10 @@
   },
   {
     "id": "achievement1-media2",
-    "fileName": "Achievement1-media2.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 299515,
-    "url": "/media/pictures/Achievements/Achievement1-media2.jpeg",
+    "fileName": "Achievement1-media2.webp",
+    "fileFormat": "webp",
+    "fileSize": 51246,
+    "url": "/media/pictures/Achievements/Achievement1-media2.webp",
     "altText": {
       "al": "Uarda Dauti duke përqafuar një grua tjetër në skenë, duke mbajtur pllakën e çmimit special",
       "en": "Uarda Dauti embracing another woman on stage, holding the Special Prize plaque"
@@ -141,10 +141,10 @@
   },
   {
     "id": "achievement1-media3",
-    "fileName": "Achievement1-media3.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 279226,
-    "url": "/media/pictures/Achievements/Achievement1-media3.jpeg",
+    "fileName": "Achievement1-media3.webp",
+    "fileFormat": "webp",
+    "fileSize": 48150,
+    "url": "/media/pictures/Achievements/Achievement1-media3.webp",
     "altText": {
       "al": "Uarda Dauti dhe një grua tjetër duke pozuar bashkë me pllakën e çmimit special",
       "en": "Uarda Dauti and another woman posing together with the Special Prize plaque"
@@ -155,10 +155,10 @@
   },
   {
     "id": "achievement1-media4",
-    "fileName": "Achievement1-media4.jpeg",
-    "fileFormat": "jpeg",
-    "fileSize": 349260,
-    "url": "/media/pictures/Achievements/Achievement1-media4.jpeg",
+    "fileName": "Achievement1-media4.webp",
+    "fileFormat": "webp",
+    "fileSize": 79574,
+    "url": "/media/pictures/Achievements/Achievement1-media4.webp",
     "altText": {
       "al": "Foto grupi me katër gra duke mbajtur trofe në ceremoninë e çmimeve",
       "en": "Group photo of four women holding trophies at the award ceremony"

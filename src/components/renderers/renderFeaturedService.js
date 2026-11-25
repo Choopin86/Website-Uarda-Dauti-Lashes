@@ -36,6 +36,7 @@ export function renderFeaturedService(featuredUI, container) {
     const img = document.createElement("img");
     img.src = thumbnail.url;
     img.alt = thumbnail.alt || featuredUI.content.title;
+    img.loading = "lazy";
     figure.appendChild(img);
     container.appendChild(figure);
   }

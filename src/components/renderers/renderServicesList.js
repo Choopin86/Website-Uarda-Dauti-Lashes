@@ -31,6 +31,7 @@ export function renderServicesList(servicesListUI, container, onSelectService) {
       const img = document.createElement("img");
       img.src = thumbnail.url;
       img.alt = thumbnail.alt || service.content.title;
+      img.loading = "lazy";
       img.className = "service-image";
       card.appendChild(img);
     }

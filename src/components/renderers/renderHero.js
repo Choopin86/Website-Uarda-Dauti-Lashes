@@ -25,6 +25,8 @@ export function renderHero(heroUI, container) {
   const image = document.createElement("img");
   image.src = heroUI.content.heroImage.url;
   image.alt = heroUI.content.heroImage.alt;
+  image.loading = "eager";
+  image.fetchPriority = "high";
   frame.appendChild(image);
   portrait.appendChild(frame);
 

@@ -10,6 +10,7 @@ export function renderAboutBio(aboutBioUi, portraitContainer, bioContainer) {
     image.classList.add("about-portrait");
     image.src = portraitImage.url;
     image.alt = portraitImage.alt;
+    image.loading = "lazy";
     portraitContainer.appendChild(image);
   }
 
