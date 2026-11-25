@@ -10,8 +10,46 @@ export function renderHeader(headerUI, container, onToggleLanguage) {
   const nav = document.createElement("nav");
   nav.className = "main-nav";
 
+  const isAlbanian = headerUI.content.language === "al";
+  const openLabel = isAlbanian ? "Hap menynë" : "Open menu";
+  const closeLabel = isAlbanian ? "Mbyll menynë" : "Close menu";
+
+  const navToggle = document.createElement("button");
+  navToggle.type = "button";
+  navToggle.className = "nav-toggle";
+  navToggle.setAttribute("aria-expanded", "false");
+  navToggle.setAttribute("aria-controls", "nav-links");
+  navToggle.setAttribute("aria-label", openLabel);
+
+  for (let i = 0; i < 3; i++) {
+    const bar = document.createElement("span");
+    bar.className = "nav-toggle__bar";
+    navToggle.appendChild(bar);
+  }
+
   const list = document.createElement("ul");
   list.className = "nav-links";
+  list.id = "nav-links";
+
+  const closeMenu = () => {
+    list.classList.remove("is-open");
+    navToggle.classList.remove("is-active");
+    navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", openLabel);
+  };
+
+  navToggle.addEventListener("click", () => {
+    const isOpen = list.classList.toggle("is-open");
+    navToggle.classList.toggle("is-active", isOpen);
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+    navToggle.setAttribute("aria-label", isOpen ? closeLabel : openLabel);
+  });
+
+  list.addEventListener("click", (event) => {
+    if (event.target.tagName === "A") {
+      closeMenu();
+    }
+  });
 
   headerUI.content.links.forEach((link) => {
     const item = document.createElement("li");
@@ -56,7 +94,7 @@ export function renderHeader(headerUI, container, onToggleLanguage) {
   langItem.appendChild(langToggle);
   list.appendChild(langItem);
 
-  nav.appendChild(list);
+  nav.append(navToggle, list);
 
   //Assemble
   container.append(brandLink, nav);

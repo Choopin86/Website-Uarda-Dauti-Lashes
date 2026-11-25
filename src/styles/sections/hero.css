@@ -8,18 +8,11 @@
   gap: var(--space-6);
   max-width: var(--container);
   margin: 0 auto;
-  padding: var(--space-6) var(--space-4) var(--space-7);
-}
-
-/* Single sunburst flourish, top-center between text and portrait */
-.hero.flourish::before,
-.hero .flourish::before {
-  top: var(--space-5);
-  right: 46%;
+  padding: var(--space-3) var(--space-4) var(--space-7);
 }
 
 .hero-brand {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -34,7 +27,7 @@
 }
 
 .hero-text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--muted-on-ink);
   max-width: 42ch;
 }
@@ -75,15 +68,11 @@
   .hero {
     grid-template-columns: 1fr;
     gap: var(--space-5);
-    padding-top: var(--space-5);
+    padding-top: var(--space-2);
   }
 
   .hero-portrait {
     justify-self: center;
     order: 2;
-  }
-
-  .hero.flourish::before {
-    right: var(--space-4);
   }
 }

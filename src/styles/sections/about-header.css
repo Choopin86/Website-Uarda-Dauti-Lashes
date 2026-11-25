@@ -35,6 +35,7 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius-circle);
+  object-position: 50% 15%;
 }
 
 .about-header-portrait::after {
