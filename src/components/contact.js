@@ -33,7 +33,11 @@ export function initContact() {
     contactCopy.information,
     language,
   );
-  const contactFormUI = transformContactForm(contactCopy.form, language);
+  const contactFormUI = transformContactForm(
+    contactCopy.form,
+    contactInformation,
+    language,
+  );
   const mapUI = transformMap(contactInformation, contactCopy.map, language);
   const footerUI = transformFooter(
     businessIdentity,

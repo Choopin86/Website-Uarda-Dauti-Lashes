@@ -1,8 +1,9 @@
-export function transformContactForm(copy, language) {
+export function transformContactForm(copy, contactInformation, language) {
   //Build Contact Form UI structure
   return {
     type: "contactForm",
     content: {
+      web3FormsAccessKey: contactInformation.web3FormsAccessKey,
       instructions: copy.instructions[language],
       labels: {
         fullName: copy.labels.fullName[language],
@@ -17,6 +18,7 @@ export function transformContactForm(copy, language) {
         required: copy.requiredError[language],
         consent: copy.consentError[language],
         success: copy.successMessage[language],
+        sendError: copy.sendError[language],
       },
     },
   };

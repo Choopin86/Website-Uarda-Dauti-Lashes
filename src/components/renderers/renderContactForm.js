@@ -125,7 +125,7 @@ export function renderContactForm(
     messagesContainer.appendChild(message);
   }
 
-  form.addEventListener("submit", (event) => {
+  form.addEventListener("submit", async (event) => {
     event.preventDefault();
 
     const requiredInputs = [
@@ -149,9 +149,34 @@ export function renderContactForm(
       return;
     }
 
-    // Validation passes here; sending the submission to a backend is a follow-up
-    // step once a delivery method (form service or serverless function) is chosen.
-    showMessage(content.messages.success, "success");
-    form.reset();
+    submitButton.disabled = true;
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: content.web3FormsAccessKey,
+          subject: `New inquiry from ${fullNameInput.value.trim()}`,
+          "Full Name": fullNameInput.value.trim(),
+          "Email": emailInput.value.trim(),
+          "Full Address": addressInput.value.trim(),
+          "Phone Number": telInput.value.trim(),
+          "Message": messageInput.value.trim(),
+        }),
+      });
+      const result = await response.json();
+
+      if (result.success) {
+        showMessage(content.messages.success, "success");
+        form.reset();
+      } else {
+        showMessage(content.messages.sendError, "error");
+      }
+    } catch (error) {
+      showMessage(content.messages.sendError, "error");
+    } finally {
+      submitButton.disabled = false;
+    }
   });
 }
