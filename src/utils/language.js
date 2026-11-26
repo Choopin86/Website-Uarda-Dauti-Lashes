@@ -1,8 +1,13 @@
 const STORAGE_KEY = "uarda-dauti-lashes:language";
 const DEFAULT_LANGUAGE = "al";
 const SUPPORTED_LANGUAGES = ["al", "en"];
+const HTML_LANG_CODES = { al: "sq", en: "en" };
 
 let memoryLanguage = DEFAULT_LANGUAGE;
+
+function syncHtmlLang(language) {
+  document.documentElement.lang = HTML_LANG_CODES[language];
+}
 
 export function getLanguage() {
   try {
@@ -16,6 +21,8 @@ export function getLanguage() {
   return memoryLanguage;
 }
 
+syncHtmlLang(getLanguage());
+
 export function setLanguage(language) {
   if (!SUPPORTED_LANGUAGES.includes(language)) {
     throw new Error(`Unsupported language: ${language}`);
@@ -26,6 +33,7 @@ export function setLanguage(language) {
   } catch (error) {
     // localStorage unavailable; in-memory value keeps the page working
   }
+  syncHtmlLang(language);
 }
 
 export function toggleLanguage() {
