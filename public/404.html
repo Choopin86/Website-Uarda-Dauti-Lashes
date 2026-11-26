@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faqja nuk u gjet | Uarda Dauti Lashes</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/media/pictures/favicon.png" />
+    <style>
+      :root {
+        --ink: #211c18;
+        --cream: #f0e7d8;
+        --accent: #c68b5e;
+        --accent-strong: #b3764a;
+        --text-on-ink: #ede4d4;
+        --muted-on-ink: #a89d8e;
+        --font-display: "Cormorant Garamond", "Times New Roman", serif;
+        --font-body: "Jost", "Avenir Next", "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--ink);
+        color: var(--text-on-ink);
+        font-family: var(--font-body);
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .not-found-code {
+        font-family: var(--font-display);
+        font-size: clamp(4rem, 12vw, 7rem);
+        color: var(--accent);
+        margin: 0;
+        line-height: 1;
+      }
+
+      .not-found-title {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.5rem, 4vw, 2.2rem);
+        margin: 0;
+      }
+
+      .not-found-sub {
+        max-width: 32rem;
+        color: var(--muted-on-ink);
+        font-size: 0.95rem;
+        margin: 0;
+      }
+
+      .btn-pill {
+        display: inline-block;
+        margin-top: 0.5rem;
+        padding: 0.7em 1.9em;
+        border: 1px solid var(--accent);
+        border-radius: 999px;
+        background-color: var(--accent);
+        color: var(--ink);
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background-color 0.25s ease, border-color 0.25s ease;
+      }
+
+      .btn-pill:hover {
+        background-color: var(--accent-strong);
+        border-color: var(--accent-strong);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="not-found-code">404</p>
+    <h1 class="not-found-title">Kjo faqe nuk ekziston</h1>
+    <p class="not-found-sub">
+      Faqja që po kërkoni mund të jetë zhvendosur ose nuk ekziston më. Ju
+      ftojmë të ktheheni në kryefaqe.
+    </p>
+    <a class="btn-pill" href="/">Kthehu në kryefaqe</a>
+  </body>
+</html>
