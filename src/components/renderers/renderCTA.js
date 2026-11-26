@@ -1,3 +1,10 @@
+import { track } from "../../utils/analytics.js";
+
+const SOCIAL_EVENTS = {
+  instagram: "book_now_clicked",
+  whatsapp: "whatsapp_clicked",
+};
+
 export function renderCTA(ctaUI, container) {
   //Clear existing content
   container.innerHTML = "";
@@ -20,6 +27,7 @@ export function renderCTA(ctaUI, container) {
   phone.className = "cta-item";
   phone.href = `tel:${ctaUI.content.phone.replace(/\s/g, "")}`;
   phone.textContent = ctaUI.content.phone;
+  phone.addEventListener("click", () => track("phone_clicked"));
 
   const email = document.createElement("a");
   email.className = "cta-item";
@@ -49,6 +57,10 @@ export function renderCTA(ctaUI, container) {
       anchor.href = social.url;
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
+      const eventName = SOCIAL_EVENTS[social.platform];
+      if (eventName) {
+        anchor.addEventListener("click", () => track(eventName));
+      }
       const icon = document.createElement("i");
       icon.className = social.icon;
       anchor.appendChild(icon);

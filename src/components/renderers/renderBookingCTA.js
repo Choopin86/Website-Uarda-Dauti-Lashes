@@ -1,3 +1,10 @@
+import { track } from "../../utils/analytics.js";
+
+const SOCIAL_EVENTS = {
+  instagram: "book_now_clicked",
+  whatsapp: "whatsapp_clicked",
+};
+
 export function renderBookingCTA(bookingCtaUI, container) {
   // Clear existing content
   container.innerHTML = "";
@@ -7,6 +14,7 @@ export function renderBookingCTA(bookingCtaUI, container) {
 
   const phoneLink = document.createElement("a");
   phoneLink.href = `tel:${bookingCtaUI.content.phone.replace(/\s/g, "")}`;
+  phoneLink.addEventListener("click", () => track("phone_clicked"));
   const phoneIcon = document.createElement("i");
   phoneIcon.className = "fa-solid fa-phone";
   phoneLink.appendChild(phoneIcon);
@@ -23,6 +31,10 @@ export function renderBookingCTA(bookingCtaUI, container) {
       anchor.href = social.url;
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
+      const eventName = SOCIAL_EVENTS[social.platform];
+      if (eventName) {
+        anchor.addEventListener("click", () => track(eventName));
+      }
       const icon = document.createElement("i");
       icon.className = social.icon;
       anchor.appendChild(icon);

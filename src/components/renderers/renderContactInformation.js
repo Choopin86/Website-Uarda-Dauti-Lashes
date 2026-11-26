@@ -1,3 +1,10 @@
+import { track } from "../../utils/analytics.js";
+
+const SOCIAL_EVENTS = {
+  instagram: "book_now_clicked",
+  whatsapp: "whatsapp_clicked",
+};
+
 export function renderContactInformation(contactInformationUI, container) {
   //Clear existing content
   container.innerHTML = "";
@@ -27,6 +34,7 @@ export function renderContactInformation(contactInformationUI, container) {
   const phoneLink = document.createElement("a");
   phoneLink.className = "contact-information-link";
   phoneLink.href = contactInformationUI.content.phone.href;
+  phoneLink.addEventListener("click", () => track("phone_clicked"));
   phoneLink.append(
     phoneIconWrap,
     document.createTextNode(contactInformationUI.content.phone.display),
@@ -88,6 +96,10 @@ export function renderContactInformation(contactInformationUI, container) {
     anchor.href = link.url;
     anchor.target = "_blank";
     anchor.rel = "noopener noreferrer";
+    const eventName = SOCIAL_EVENTS[link.platform];
+    if (eventName) {
+      anchor.addEventListener("click", () => track(eventName));
+    }
     const icon = document.createElement("i");
     icon.className = link.icon;
     anchor.appendChild(icon);

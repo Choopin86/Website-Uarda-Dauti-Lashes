@@ -1,3 +1,5 @@
+import { track } from "../../utils/analytics.js";
+
 export function renderServicesList(servicesListUI, container, onSelectService) {
   // Clear existing content
   container.innerHTML = "";
@@ -58,7 +60,10 @@ export function renderServicesList(servicesListUI, container, onSelectService) {
     bookButton.target = "_blank";
     bookButton.rel = "noopener noreferrer";
     bookButton.textContent = servicesListUI.content.labels?.bookNow;
-    bookButton.addEventListener("click", (event) => event.stopPropagation());
+    bookButton.addEventListener("click", (event) => {
+      event.stopPropagation();
+      track("book_now_clicked");
+    });
 
     const textWrapper = document.createElement("div");
     textWrapper.className = "service-text";

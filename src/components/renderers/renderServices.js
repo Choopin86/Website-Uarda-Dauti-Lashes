@@ -1,3 +1,5 @@
+import { track } from "../../utils/analytics.js";
+
 export function renderServices(servicesUI, container) {
   // Clear existing content
   container.innerHTML = "";
@@ -53,6 +55,7 @@ export function renderServices(servicesUI, container) {
     bookButton.target = "_blank";
     bookButton.rel = "noopener noreferrer";
     bookButton.textContent = servicesUI.content.labels?.bookNow;
+    bookButton.addEventListener("click", () => track("book_now_clicked"));
 
     const textWrapper = document.createElement("div");
     textWrapper.className = "service-text";

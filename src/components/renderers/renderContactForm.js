@@ -1,3 +1,5 @@
+import { track } from "../../utils/analytics.js";
+
 function createTextField(id, type, label) {
   const field = document.createElement("div");
   field.className = "contact-form-field";
@@ -168,6 +170,7 @@ export function renderContactForm(
       const result = await response.json();
 
       if (result.success) {
+        track("contact_form_submitted");
         showMessage(content.messages.success, "success");
         form.reset();
       } else {

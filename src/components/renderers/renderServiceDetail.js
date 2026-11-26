@@ -1,3 +1,5 @@
+import { track } from "../../utils/analytics.js";
+
 export function renderServiceDetail(detailUI, dialog) {
   // Clear existing content
   dialog.innerHTML = "";
@@ -83,6 +85,7 @@ export function renderServiceDetail(detailUI, dialog) {
   bookButton.target = "_blank";
   bookButton.rel = "noopener noreferrer";
   bookButton.textContent = detailUI.content.labels.bookNow;
+  bookButton.addEventListener("click", () => track("book_now_clicked"));
   wrapper.appendChild(bookButton);
 
   dialog.appendChild(wrapper);
